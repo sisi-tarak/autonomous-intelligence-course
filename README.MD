@@ -146,6 +146,7 @@ DEEP  = Full explanation + working code + real examples + Telugu meanings.
 </details>
 
 ---
+```
 
 ## ⏱️ Realistic Timeline
 
