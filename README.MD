@@ -70,7 +70,7 @@ BRIEF = Learn the concept. Move on. Don't waste time on things agents don't need
 DEEP  = Full explanation + working code + real examples + Telugu meanings.
 ```
 
-
+```
 
 ## 📋 Table of Contents
 
