@@ -59,7 +59,7 @@ By the end of this course, you will have built:
 
 ## 🗺️ Course Overview
 
-```
+
 TOTAL TIME: 2 months | 2 hours/day | 84 hours of focused learning
 ─────────────────────────────────────────────────────────────────────
 
@@ -70,7 +70,7 @@ BRIEF = Learn the concept. Move on. Don't waste time on things agents don't need
 DEEP  = Full explanation + working code + real examples + Telugu meanings.
 ```
 
----
+
 
 ## 📋 Table of Contents
 
@@ -150,7 +150,7 @@ DEEP  = Full explanation + working code + real examples + Telugu meanings.
 
 ## ⏱️ Realistic Timeline
 
-```
+
 2 hours/day × 60 days = 120 hours total
 70% learning (84 hrs) + 30% practice & revision (36 hrs)
 
@@ -167,7 +167,7 @@ Week 8  Memory + Safety + Projects     🔴 DEEP    18 hrs
                             TOTAL:     84 hrs ✅
 ```
 
----
+
 
 ## 🔧 Setup — Install Everything at Once
 
@@ -198,7 +198,7 @@ echo "✅ Setup complete! You're ready to build autonomous agents."
 
 ---
 
----
+
 
 ## 🟢 BRIEF — Foundation (Weeks 1–4)
 
@@ -637,8 +637,7 @@ Open Source (FREE — runs locally):
 **[⬆ Back to Top](#-table-of-contents)**
 
 ---
-
----
+<br/>
 
 ## 🔴 DEEP — Autonomous AI (Weeks 5–8)
 
@@ -1999,7 +1998,6 @@ Thank you to everyone who has contributed to making this course better for every
 
 ## 📦 Repository Structure
 
-```
 zero-to-autonomous-agentic-ai/
 │
 ├── 📄 README.md                          ← You are here
@@ -2083,8 +2081,6 @@ Yes — MIT License. Use, modify, share freely. Attribution appreciated.
 
 <div align="center">
 
----
-
 ## ⭐ Star This Repository
 
 If this course is helping you, **star it** — it helps other learners find it for free.
@@ -2092,15 +2088,12 @@ If this course is helping you, **star it** — it helps other learners find it f
 [![Star](https://img.shields.io/github/stars/sisi-tarak/zero-to-autonomous-agentic-ai?style=for-the-badge&logo=github&label=Star%20this%20repo)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai)
 [![Fork](https://img.shields.io/github/forks/sisi-tarak/zero-to-autonomous-agentic-ai?style=for-the-badge&logo=github&label=Fork%20%26%20Contribute)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai/fork)
 
----
 
 ### 📲 Follow for Daily AI Updates
 
 [![Instagram](https://img.shields.io/badge/Follow%20%40sisi__tarakk-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/sisi_tarakk)
 [![LinkedIn](https://img.shields.io/badge/Sisindri%20Singamsetti-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sisitarak)
 [![GitHub](https://img.shields.io/badge/sisi--tarak-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sisi-tarak)
-
----
 
 ### 📦 More Free Repositories by Sisi
 
