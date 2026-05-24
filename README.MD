@@ -2,11 +2,8 @@
 
 > Click ⭐ if this course helps you. Follow [@sisi_tarakk](https://www.instagram.com/sisi_tarakk) on Instagram and [@sisitarak](https://www.linkedin.com/in/sisitarak) on LinkedIn for daily AI updates.
 
----
-
 > 🙌 Pull Requests are welcome — add examples, fix bugs, improve explanations. Your name goes in the Contributors list permanently!
 
----
 
 <div align="center">
 
