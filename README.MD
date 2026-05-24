@@ -16,7 +16,7 @@
 
 </div>
 
----
+<br/>
 
 ## 🎯 What Is This Course?
 
@@ -29,7 +29,7 @@ This is a complete, free course — going from absolute zero to building real Au
 **Who built this and why?**
 I'm Sisindri Singamsetti, CEO of Webortex. I noticed Telugu students paying ₹30,000–₹80,000 for AI courses that teach the same things available free online — just scattered. This repo organises everything in one place, in a learning order that makes sense, with real working code.
 
----
+<br/>
 
 ## 👥 Who Is This For?
 
@@ -41,7 +41,7 @@ I'm Sisindri Singamsetti, CEO of Webortex. I noticed Telugu students paying ₹3
 | 🤔 Complete Beginner | Zero assumptions — coding experience not required |
 | 🧑‍💻 Self-learner | Day-by-day structured path — no confusion |
 
----
+<br/>
 
 ## 💡 What You Will Build (The 3 Final Projects)
 
@@ -64,7 +64,7 @@ PROJECT 3 — Production REST API for Your Agent
   Time to build: 2 hours
 ```
 
----
+<br/>
 
 ## ⏱️ Realistic Study Plan
 
@@ -79,7 +79,7 @@ WEEKS 5–8:  Autonomous AI (DEEP) — full code + diagrams + projects
 Each day = 1 to 1.5 hours of focused content
 ```
 
----
+<br/>
 
 ## 🗺️ Course Map
 
@@ -97,7 +97,7 @@ WEEK 8  Memory + Safety + Deploy[DEEP — 15 hrs]
 TOTAL:                           84 hours ✅
 ```
 
----
+<br/>
 
 ## 📋 Table of Contents
 
@@ -153,15 +153,15 @@ TOTAL:                           84 hours ✅
 
 </details>
 
----
+<br/>
 
----
+<br/>
 
 ## 🔧 Complete Environment Setup
 
 > **ఇది చేయాల్సిన first thing.** Course start చేయడానికి ముందు ఈ setup పూర్తి చేయండి. Every command is explained. Zero assumptions.
 
----
+<br/>
 
 ### Step 1 — Install Python
 
@@ -189,7 +189,7 @@ python --version     # Should show Python 3.10 or higher
 pip --version        # Should show pip version
 ```
 
----
+<br/>
 
 ### Step 2 — Install VS Code
 
@@ -207,7 +207,7 @@ After installing, add these extensions:
    - "GitLens" by GitKraken (optional, helps with GitHub)
 ```
 
----
+<br/>
 
 ### Step 3 — Create Virtual Environment
 
@@ -232,7 +232,7 @@ source agentic_env/bin/activate
 # This means the virtual environment is active ✅
 ```
 
----
+<br/>
 
 ### Step 4 — Install All Libraries
 
@@ -280,7 +280,7 @@ pip install numpy                     # Numerical operations
 pip list | grep -E "openai|langchain|crewai|chromadb"
 ```
 
----
+<br/>
 
 ### Step 5 — Get API Keys
 
@@ -309,7 +309,7 @@ SERPER API KEY (for web search in agents):
 4. Free tier: 2500 searches/month
 ```
 
----
+<br/>
 
 ### Step 6 — Create .env File
 
@@ -331,7 +331,7 @@ echo "agentic_env/" >> .gitignore
 echo "__pycache__/" >> .gitignore
 ```
 
----
+<br/>
 
 ### Step 7 — Verify Everything Works
 
@@ -382,7 +382,7 @@ print("=" * 50)
 python verify_setup.py
 ```
 
----
+<br/>
 
 ### Step 8 — Test First API Call
 
@@ -421,15 +421,15 @@ python test_api.py
 # Tokens used: 15
 ```
 
----
+<br/>
 
----
+<br/>
 
 ## 🟢 WEEK 1 — Python for AI
 
 > **Goal this week:** Learn Python concepts that agents use every day. ఈ week లో deep గా వెళ్ళవద్దు — just understand enough to write agent code.
 
----
+<br/>
 
 ### Day 1 — Python Basics + Data Types
 
@@ -444,7 +444,7 @@ Python is the programming language used for all AI development. You don't need t
 **Real-world Connection:**
 When an autonomous travel agent runs, every piece of data it handles — the user's destination, list of available flights, hotel details — is stored in Python variables, lists, and dictionaries. This is why you need to understand these first.
 
----
+<br/>
 
 #### 📝 1.1 Variables — Labelled Storage Boxes
 
@@ -517,7 +517,7 @@ Confidence: 94.0%
 Block email: True
 ```
 
----
+<br/>
 
 #### 📝 1.2 Lists — Ordered Collections
 
@@ -559,7 +559,7 @@ expensive_flights = [p for p in prices if p > 4000]
 print(f"Expensive flights (>₹4000): {expensive_flights}")
 ```
 
----
+<br/>
 
 #### 📝 1.3 Dictionaries — Labelled Data Containers
 
@@ -625,7 +625,7 @@ cheapest = min(search_results, key=lambda x: x["price"])
 print(f"\nCheapest: {cheapest['airline']} at ₹{cheapest['price']}")
 ```
 
----
+<br/>
 
 #### ⚠️ Common Mistakes on Day 1
 
@@ -660,7 +660,7 @@ user = {"name": "Sisi", "city": "Hyderabad"}
 print(user.get("phone", "No phone provided"))  # safe
 ```
 
----
+<br/>
 
 #### 📚 Day 1 Resources
 
@@ -673,7 +673,7 @@ print(user.get("phone", "No phone provided"))  # safe
 
 **[⬆ Back to Top](#-table-of-contents)**
 
----
+<br/>
 
 ### Day 2 — Python Loops + Functions
 
@@ -683,7 +683,7 @@ print(user.get("phone", "No phone provided"))  # safe
 
 **English:** Loops do repetitive tasks. Functions package reusable logic. In agents, every tool the agent can use is written as a function.
 
----
+<br/>
 
 #### 📝 2.1 For Loops
 
@@ -727,7 +727,7 @@ while not confirmed and attempts < 3:
 print(f"  Confirmed after {attempts} attempts")
 ```
 
----
+<br/>
 
 #### 📝 2.2 List Comprehensions
 
@@ -760,7 +760,7 @@ normalized = [round(s / max_score, 3) for s in raw_scores]
 print("Normalized scores:", normalized)
 ```
 
----
+<br/>
 
 #### 📝 2.3 Functions
 
@@ -852,7 +852,7 @@ for flight in results:
     print(f"  Seats:   {flight['seats']} left")
 ```
 
----
+<br/>
 
 #### 📝 2.4 Lambda Functions
 
@@ -887,7 +887,7 @@ for f in budget:
     print(f"  {f['id']}: ₹{f['price']}")
 ```
 
----
+<br/>
 
 #### 📚 Day 2 Resources
 
@@ -899,7 +899,7 @@ for f in budget:
 
 **[⬆ Back to Top](#-table-of-contents)**
 
----
+<br/>
 
 ### Day 3 — OOP — Classes + Objects
 
@@ -909,7 +909,7 @@ for f in budget:
 
 **English:** Every AI agent framework (LangChain, CrewAI, LangGraph) is built using OOP. Understanding classes unlocks understanding of every AI tool you'll use.
 
----
+<br/>
 
 #### 📝 3.1 Class vs Object
 
@@ -973,7 +973,7 @@ print(flight1.book("Ram"))      # Already booked!
 print(flight3.apply_discount(10))
 ```
 
----
+<br/>
 
 #### 📝 3.2 Inheritance — How Agent Frameworks Work
 
@@ -1091,7 +1091,7 @@ Real-world: LangChain's BaseTool, PyTorch's nn.Module
             work EXACTLY this way!
 ```
 
----
+<br/>
 
 #### 📚 Day 3 Resources
 
@@ -1104,7 +1104,7 @@ Real-world: LangChain's BaseTool, PyTorch's nn.Module
 
 **[⬆ Back to Top](#-table-of-contents)**
 
----
+<br/>
 
 ### Day 4 — Error Handling + Working with APIs
 
@@ -1112,7 +1112,7 @@ Real-world: LangChain's BaseTool, PyTorch's nn.Module
 
 **అర్థం:** Autonomous agents APIs తో నిరంతరం మాట్లాడతాయి. APIs fail అవుతాయి, timeout అవుతాయి, wrong data పంపుతాయి. Agent ఇవన్నీ gracefully handle చేయగలగాలి — crash కాకుండా.
 
----
+<br/>
 
 #### 📝 4.1 Try-Except — Catching Errors
 
@@ -1161,7 +1161,7 @@ print(safe_divide(100, 0))          # Error: Cannot divide by zero
 print(safe_divide("100", 4))        # Error: Wrong type
 ```
 
----
+<br/>
 
 #### 📝 4.2 API Calls with Error Handling
 
@@ -1272,7 +1272,7 @@ if "error" not in data:
     print(f"   URL: {data.get('url')}")
 ```
 
----
+<br/>
 
 #### 📝 4.3 Working with JSON
 
@@ -1358,7 +1358,7 @@ with open("agent_memory.json", "r") as f:
 print(f"Loaded preferences: {loaded_memory['preferences']}")
 ```
 
----
+<br/>
 
 #### 📚 Day 4 Resources
 
@@ -1371,11 +1371,11 @@ print(f"Loaded preferences: {loaded_memory['preferences']}")
 
 **[⬆ Back to Top](#-table-of-contents)**
 
----
+<br/>
 
 ## 🟢 WEEK 2 — Math + Data Tools
 
----
+<br/>
 
 ### Day 5 — Math — Vectors + Embeddings
 
@@ -1385,7 +1385,7 @@ print(f"Loaded preferences: {loaded_memory['preferences']}")
 
 **English:** The single most important math concept for agentic AI. Every piece of text the agent handles is secretly a list of numbers. Understanding this unlocks RAG, memory systems, and semantic search.
 
----
+<br/>
 
 #### 📝 5.1 What Is a Vector?
 
@@ -1414,7 +1414,7 @@ magnitude        = np.linalg.norm(speed_components)
 print(f"Speed magnitude: {magnitude}")    # 5.0 (Pythagoras: √(3²+4²))
 ```
 
----
+<br/>
 
 #### 📝 5.2 Text Embeddings — How AI Reads Text
 
@@ -1446,7 +1446,7 @@ print(f"Max value:       {embedding.max():.4f}")
 # Different sentences → different vectors
 ```
 
----
+<br/>
 
 #### 📝 5.3 Cosine Similarity — Measuring Meaning Distance
 
@@ -1504,7 +1504,7 @@ for sentence, description in comparisons:
     print(f"   → {description}")
 ```
 
----
+<br/>
 
 #### 📝 5.4 How This Powers Agent Memory
 
@@ -1565,7 +1565,7 @@ for query in test_queries:
         print(f"   [{sim:.3f}] {memory}")
 ```
 
----
+<br/>
 
 #### 📚 Day 5 Resources
 
@@ -1579,7 +1579,7 @@ for query in test_queries:
 
 **[⬆ Back to Top](#-table-of-contents)**
 
----
+<br/>
 
 ### Day 6 — NumPy — The Foundation of AI
 
