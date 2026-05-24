@@ -27,7 +27,7 @@
 This is a complete, free course — going from absolute zero to building real Autonomous AI Agents that work independently: search the web, remember users, book appointments, write reports, and complete multi-step tasks without human supervision.
 
 **Who built this and why?**
-I'm Sisi, CEO of Webortex. I noticed Telugu students paying ₹30,000–₹80,000 for AI courses that teach the same things available free online — just scattered. This repo organises everything in one place, in a learning order that makes sense, with real working code.
+I'm Sisindri Singamsetti, CEO of Webortex. I noticed Telugu students paying ₹30,000–₹80,000 for AI courses that teach the same things available free online — just scattered. This repo organises everything in one place, in a learning order that makes sense, with real working code.
 
 ---
 
