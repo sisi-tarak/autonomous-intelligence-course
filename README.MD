@@ -1,644 +1,2642 @@
 # 🤖 Zero to Autonomous Agentic AI — Complete Free Course
 
-> Click ⭐ if this course helps you. Follow me [@sisi_tarakk](https://www.instagram.com/sisi_tarakk) on Instagram and [@sisitarak](https://www.linkedin.com/in/sisitarak) on LinkedIn for daily AI updates.
+> Click ⭐ if this course helps you. Follow [@sisi_tarakk](https://www.instagram.com/sisi_tarakk) on Instagram and [@sisitarak](https://www.linkedin.com/in/sisitarak) on LinkedIn for daily AI updates.
 
-> 🙌 Pull Requests are welcome — add questions, fix bugs, improve explanations, or translate content. Your name goes in the Contributors list!
+---
+
+> 🙌 Pull Requests are welcome — add examples, fix bugs, improve explanations. Your name goes in the Contributors list permanently!
+
+---
 
 <div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/sisi-tarak/zero-to-autonomous-agentic-ai?style=social)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/sisi-tarak/zero-to-autonomous-agentic-ai?style=social)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai/fork)
-[![GitHub Issues](https://img.shields.io/github/issues/sisi-tarak/zero-to-autonomous-agentic-ai)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai/issues)
+[![Stars](https://img.shields.io/github/stars/sisi-tarak/zero-to-autonomous-agentic-ai?style=social)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai/stargazers)
+[![Forks](https://img.shields.io/github/forks/sisi-tarak/zero-to-autonomous-agentic-ai?style=social)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai/fork)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**⭐ Star this repo so more people can find it for free**
+**⭐ Star this repo so more Telugu developers can find it for free**
 
 </div>
 
 ---
 
-## 🎯 What Is This?
+## 🎯 What Is This Course?
 
-ఈ repository ఒక **complete, free, self-paced course** — ఎవరైనా absolute zero నుండి real **Autonomous Agentic AI systems** build చేయగలిగే స్థాయికి reach అవ్వడానికి.
+**ఈ course ఏమిటి?**
 
-This is a **complete, free, self-paced course** — designed so that anyone, with zero prior AI knowledge, can go from scratch to building real **Autonomous Agentic AI systems** that work independently.
+ఇది ఒక complete, free course — absolute zero నుండి Real Autonomous Agentic AI systems build చేయగలిగే స్థాయికి వెళ్ళడానికి. No paid subscriptions. No gatekeeping. Just clear, structured learning — every day, step by step.
 
-No paid courses. No gatekeeping. Just structured learning — for free.
+This is a complete, free course — going from absolute zero to building real Autonomous AI Agents that work independently: search the web, remember users, book appointments, write reports, and complete multi-step tasks without human supervision.
+
+**Who built this and why?**
+I'm Sisi, CEO of Webortex. I noticed Telugu students paying ₹30,000–₹80,000 for AI courses that teach the same things available free online — just scattered. This repo organises everything in one place, in a learning order that makes sense, with real working code.
 
 ---
 
 ## 👥 Who Is This For?
 
 | మీరు ఎవరు | మీకు ఏమి దొరుకుతుంది |
-|-----------|----------------------|
-| 🎓 Student / Fresher | AI career start చేయడానికి complete foundation |
-| 💼 Developer switching to AI | Fast-track roadmap with working code |
-| 📊 Data Analyst | Bridge from Excel/SQL to autonomous AI |
-| 🤔 Absolute Beginner | Zero assumptions — start right here |
-| 🧑‍💻 Self-learner | Structured path — no confusion |
+|----------|----------------------|
+| 🎓 Student / Fresher | AI career కి complete foundation — zero to job-ready |
+| 💼 Developer switching to AI | Fast-track with production-quality code |
+| 📊 Data Analyst wanting ML | Excel/SQL నుండి AI agents వరకు bridge |
+| 🤔 Complete Beginner | Zero assumptions — coding experience not required |
+| 🧑‍💻 Self-learner | Day-by-day structured path — no confusion |
 
 ---
 
-## 💡 What You Will Build
-
-By the end of this course, you will have built:
+## 💡 What You Will Build (The 3 Final Projects)
 
 ```
-✅ PROJECT 1 — Autonomous Research Agent
-   Give any topic → Multi-agent team researches → Professional report generated
+PROJECT 1 — Autonomous Research Agent
+  Give any topic → Multi-agent team researches → Professional report created
+  Technologies: CrewAI + SerperDev + OpenAI
+  Time to build: 2 hours
 
-✅ PROJECT 2 — Personal AI Assistant with Memory
-   Remembers your preferences across sessions — gets smarter every conversation
+PROJECT 2 — Personal AI Assistant with Long-Term Memory
+  Remembers your preferences across different sessions automatically
+  Gets smarter every time you use it
+  Technologies: Mem0 + ChromaDB + OpenAI
+  Time to build: 2 hours
 
-✅ PROJECT 3 — Production REST API for Your Agent
-   Deploy your agent so anyone in the world can use it via API
+PROJECT 3 — Production REST API for Your Agent
+  Deploy your agent → anyone in the world calls it via API
+  Includes: rate limiting, budget caps, safety guardrails
+  Technologies: FastAPI + Docker + Agent
+  Time to build: 2 hours
+```
+
+---
+
+## ⏱️ Realistic Study Plan
+
+```
+2 hours/day × 60 days (2 months) = 120 hours total
+70% core learning = 84 hours
+30% practice + revision = 36 hours
+
+WEEKS 1–4:  Foundation (BRIEF)   — understand concepts, move forward
+WEEKS 5–8:  Autonomous AI (DEEP) — full code + diagrams + projects
+
+Each day = 1 to 1.5 hours of focused content
 ```
 
 ---
 
-## 🗺️ Course Overview
+## 🗺️ Course Map
 
-
-TOTAL TIME: 2 months | 2 hours/day | 84 hours of focused learning
-─────────────────────────────────────────────────────────────────────
-
-WEEK 1–4  ▶  Foundation          [BRIEF MODE — understand, don't go deep]
-WEEK 5–8  ▶  Autonomous AI       [DEEP MODE — full code + diagrams + projects]
-
-BRIEF = Learn the concept. Move on. Don't waste time on things agents don't need.
-DEEP  = Full explanation + working code + real examples + Telugu meanings.
+```
+WEEK 1  Python for AI           [BRIEF — 7 hrs]
+WEEK 2  Math + Data Tools       [BRIEF — 7 hrs]
+WEEK 3  ML + Neural Networks    [BRIEF — 8 hrs]
+WEEK 4  LLM Fundamentals        [BRIEF — 8 hrs]
+────────────────────────────────────────────────
+WEEK 5  LLMs in Practice        [DEEP — 10 hrs]
+WEEK 6  RAG + Tools + MCP       [DEEP — 11 hrs]
+WEEK 7  Autonomous Agents       [DEEP — 18 hrs]
+WEEK 8  Memory + Safety + Deploy[DEEP — 15 hrs]
+════════════════════════════════════════════════
+TOTAL:                           84 hours ✅
 ```
 
 ---
+
 ## 📋 Table of Contents
-```
+
 <details open>
-<summary><strong>Hide / Show Full Curriculum</strong></summary>
+<summary><strong>Expand Full Curriculum</strong></summary>
 
-### 🟢 BRIEF — Foundation (Weeks 1–4)
+### 🟢 Foundation — Weeks 1–4 (BRIEF)
 
-**Week 1 — Python + OOP**
-| Day | Topic | Mode |
-| --- | ----- | ---- |
-| Day 1 | [Python Basics — Variables, Lists, Loops, Dicts](#day-1--python-basics) | 🟢 Brief |
-| Day 2 | [OOP — Classes and Objects](#day-2--oop--classes-and-objects) | 🟢 Brief |
-| Day 3 | [Error Handling + APIs + JSON](#day-3--error-handling--apis) | 🟢 Brief |
+| Day | Topic | Duration |
+|-----|-------|----------|
+| [Day 1](#day-1--python-basics--data-types) | Python Basics — Variables, Data Types, Lists, Dicts | 1 hr |
+| [Day 2](#day-2--python-loops--functions) | Python Loops, Functions, List Comprehensions | 1 hr |
+| [Day 3](#day-3--oop--classes--objects) | OOP — Classes, Objects, Inheritance | 1 hr |
+| [Day 4](#day-4--error-handling--working-with-apis) | Error Handling + Working with APIs + JSON | 1 hr |
+| [Day 5](#day-5--math--vectors--embeddings) | Math — Vectors, Embeddings, Cosine Similarity | 1.5 hr |
+| [Day 6](#day-6--numpy--the-foundation-of-ai) | NumPy — Arrays, Shapes, Operations | 1 hr |
+| [Day 7](#day-7--pandas--data-manipulation) | Pandas — DataFrames, Filter, Groupby | 1 hr |
+| [Day 8](#day-8--what-is-machine-learning) | What is Machine Learning? Types + Pipeline | 1 hr |
+| [Day 9](#day-9--neural-networks--visual-understanding) | Neural Networks — Visual Understanding Only | 1 hr |
+| [Day 10](#day-10--training-vs-inference-vs-fine-tuning) | Training vs Inference vs Fine-tuning | 1 hr |
+| [Day 11](#day-11--loss-functions--optimization) | Loss Functions + Gradient Descent | 1 hr |
+| [Day 12](#day-12--pytorch-tensors--autograd) | PyTorch Tensors + Autograd | 1 hr |
+| [Day 13](#day-13--transformer--attention-mechanism) | Transformer + Attention — How LLMs Think | 1.5 hr |
+| [Day 14](#day-14--tokens--context-windows--llm-landscape) | Tokens, Context Windows, LLM Landscape | 1 hr |
 
-**Week 2 — Math + NumPy + Pandas**
-| Day | Topic | Mode |
-| --- | ----- | ---- |
-| Day 4 | [Math That Matters — Vectors and Embeddings](#day-4--math-that-matters) | 🟢 Brief |
-| Day 5 | [NumPy for Agents](#day-5--numpy-for-agents) | 🟢 Brief |
-| Day 6 | [Pandas for Data Handling](#day-6--pandas-for-agents) | 🟢 Brief |
+### 🔴 Autonomous AI — Weeks 5–8 (DEEP)
 
-**Week 3 — ML + Neural Networks**
-| Day | Topic | Mode |
-| --- | ----- | ---- |
-| Day 7 | [What is Machine Learning?](#day-7--what-is-machine-learning) | 🟢 Brief |
-| Day 8 | [Neural Networks — Visual Only](#day-8--neural-networks-concept) | 🟢 Brief |
-| Day 9 | [Training vs Inference vs Fine-tuning](#day-9--training-vs-inference-vs-fine-tuning) | 🟢 Brief |
-| Day 10 | [Loss, Optimization, Evaluation](#day-10--loss-optimization-evaluation) | 🟢 Brief |
-
-**Week 4 — Deep Learning + LLM Concepts**
-| Day | Topic | Mode |
-| --- | ----- | ---- |
-| Day 11 | [PyTorch Tensors — Read, Don't Code](#day-11--pytorch-tensors) | 🟢 Brief |
-| Day 12 | [How LLMs Are Built — Transformer + Attention](#day-12--how-llms-are-built) | 🟢 Brief |
-| Day 13 | [Tokens + Context Window — Critical for Agents](#day-13--tokens--context-window) | 🟢 Brief |
-| Day 14 | [LLM Landscape — What Model for What Task](#day-14--llm-landscape) | 🟢 Brief |
-
----
-
-### 🔴 DEEP — Autonomous AI (Weeks 5–8)
-
-**Week 5 — LLMs in Practice**
-| Day | Topic | Mode |
-| --- | ----- | ---- |
-| Day 15 | [OpenAI API + First LLM Call + Multi-turn](#day-15--openai-api--first-llm-call) | 🔴 Deep |
-| Day 16 | [Prompt Engineering — Zero-shot, Few-shot, CoT](#day-16--prompt-engineering) | 🔴 Deep |
-| Day 17 | [Structured Outputs + JSON Mode](#day-17--structured-outputs--json-mode) | 🔴 Deep |
-| Day 18 | [Embeddings Deep Dive](#day-18--embeddings-deep-dive) | 🔴 Deep |
-| Day 19 | [Claude API + Model Comparison](#day-19--claude-api--model-comparison) | 🔴 Deep |
-
-**Week 6 — RAG + Tools + MCP**
-| Day | Topic | Mode |
-| --- | ----- | ---- |
-| Day 20 | [RAG — Retrieval Augmented Generation](#day-20--rag-system) | 🔴 Deep |
-| Day 21 | [Tool Calling — Foundation of Autonomous Agents](#day-21--tool-calling--function-calling) | 🔴 Deep |
-| Day 22 | [MCP — Model Context Protocol](#day-22--mcp-model-context-protocol) | 🔴 Deep |
-| Day 23–24 | [Vector Databases + Complete RAG Agent](#days-2324--vector-databases--complete-rag-agent) | 🔴 Deep |
-
-**Week 7 — Autonomous Agents**
-| Day | Topic | Mode |
-| --- | ----- | ---- |
-| Day 25–26 | [ReAct Agent Architecture](#days-2526--react-agent-architecture) | 🔴 Deep |
-| Day 27–28 | [Multi-Agent Systems with CrewAI](#days-2728--multi-agent-systems-with-crewai) | 🔴 Deep |
-| Day 29–30 | [LangGraph — Stateful Agent Workflows](#days-2930--langgraph--stateful-agent-workflows) | 🔴 Deep |
-
-**Week 8 — Memory + Safety + Projects**
-| Day | Topic | Mode |
-| --- | ----- | ---- |
-| Day 31–32 | [Agent Memory Systems](#days-3132--agent-memory-systems) | 🔴 Deep |
-| Day 33–34 | [Agent Safety + Guardrails](#days-3334--agent-safety--guardrails) | 🔴 Deep |
-| Day 35–37 | [Capstone Projects](#days-3537--capstone-projects) | 🔴 Deep |
+| Day | Topic | Duration |
+|-----|-------|----------|
+| [Day 15](#day-15--openai-api--first-llm-call) | OpenAI API + First LLM Call + Multi-turn | 1.5 hr |
+| [Day 16](#day-16--prompt-engineering--full-guide) | Prompt Engineering — Complete Guide | 1.5 hr |
+| [Day 17](#day-17--structured-outputs--json-mode) | Structured Outputs + JSON Mode + Pydantic | 1 hr |
+| [Day 18](#day-18--embeddings--semantic-search) | Embeddings + Semantic Search | 1.5 hr |
+| [Day 19](#day-19--claude-api--model-selection-guide) | Claude API + Model Selection Guide | 1 hr |
+| [Day 20](#day-20--rag--retrieval-augmented-generation) | RAG — Complete Implementation | 1.5 hr |
+| [Day 21](#day-21--tool-calling--function-calling) | Tool Calling — Foundation of Autonomous Agents | 1.5 hr |
+| [Day 22](#day-22--mcp--model-context-protocol) | MCP — Model Context Protocol | 1 hr |
+| [Day 23](#day-23--vector-databases--chromadb) | Vector Databases + ChromaDB | 1 hr |
+| [Day 24](#day-24--complete-rag-agent--end-to-end) | Complete RAG Agent — End to End | 1.5 hr |
+| [Day 25](#day-25--react-agent-architecture) | ReAct Agent — Reason + Act Loop | 1.5 hr |
+| [Day 26](#day-26--building-a-full-react-agent) | Building a Full ReAct Agent with 3 Tools | 1.5 hr |
+| [Day 27](#day-27--multi-agent-systems--crewai-intro) | Multi-Agent Systems + CrewAI Intro | 1.5 hr |
+| [Day 28](#day-28--crewai--researcher--writer--reviewer-crew) | CrewAI — 3-Agent Research Team | 1.5 hr |
+| [Day 29](#day-29--langgraph--stateful-workflows) | LangGraph — Stateful Workflows | 1.5 hr |
+| [Day 30](#day-30--langgraph--conditional-branching--human-loop) | LangGraph — Conditional Branching + Human-in-Loop | 1.5 hr |
+| [Day 31](#day-31--agent-memory--types--short-term) | Agent Memory — Types + Short-Term | 1 hr |
+| [Day 32](#day-32--long-term-memory-with-mem0) | Long-Term Memory with Mem0 | 1.5 hr |
+| [Day 33](#day-33--agent-safety--guardrails) | Agent Safety + Guardrails | 1 hr |
+| [Day 34](#day-34--rate-limiting--budget-caps--security) | Rate Limiting + Budget Caps + Security | 1 hr |
+| [Day 35](#day-35--project-1--autonomous-research-agent) | Project 1 — Autonomous Research Agent | 1.5 hr |
+| [Day 36](#day-36--project-2--personal-assistant-with-memory) | Project 2 — Personal Assistant with Memory | 1.5 hr |
+| [Day 37](#day-37--project-3--deploy-as-rest-api) | Project 3 — Deploy as REST API | 1.5 hr |
 
 </details>
 
 ---
-```
 
-## ⏱️ Realistic Timeline
+---
 
+## 🔧 Complete Environment Setup
 
-2 hours/day × 60 days = 120 hours total
-70% learning (84 hrs) + 30% practice & revision (36 hrs)
+> **ఇది చేయాల్సిన first thing.** Course start చేయడానికి ముందు ఈ setup పూర్తి చేయండి. Every command is explained. Zero assumptions.
 
-Week 1  Python + OOP                   🟢 BRIEF    6 hrs
-Week 2  Math + NumPy + Pandas          🟢 BRIEF    6 hrs
-Week 3  ML + Neural Networks           🟢 BRIEF    8 hrs
-Week 4  Deep Learning + LLM Concepts   🟢 BRIEF    8 hrs
-────────────────────────────────────────────────────────
-Week 5  LLMs in Practice               🔴 DEEP    10 hrs
-Week 6  RAG + Tools + MCP              🔴 DEEP    10 hrs
-Week 7  Autonomous Agents              🔴 DEEP    18 hrs
-Week 8  Memory + Safety + Projects     🔴 DEEP    18 hrs
-════════════════════════════════════════════════════════
-                            TOTAL:     84 hrs ✅
-```
+---
 
+### Step 1 — Install Python
 
+**What is Python?** The programming language used for all AI development. Think of it like the grammar rules for speaking to computers.
 
-## 🔧 Setup — Install Everything at Once
+**Why Python?** 95% of all AI libraries are in Python. It's readable, fast to write, and has the largest AI ecosystem.
 
 ```bash
-# Step 1: Create virtual environment
-python -m venv agentic_ai_env
-source agentic_ai_env/bin/activate       # Mac / Linux
-# agentic_ai_env\Scripts\activate        # Windows
+# Check if Python is already installed:
+python --version
+# If you see "Python 3.10" or higher → you're good, skip to Step 2
+# If you see "command not found" → install below
 
-# Step 2: Install all required libraries
-pip install openai anthropic google-generativeai
-pip install langchain langchain-openai langchain-community langchain-core
-pip install crewai crewai-tools langgraph
-pip install sentence-transformers chromadb mem0ai
-pip install fastapi uvicorn pydantic
-pip install duckduckgo-search mcp
-pip install python-dotenv requests pandas numpy
+# For Windows: Download from https://www.python.org/downloads/
+# CRITICAL: Check "Add Python to PATH" during installation!
 
-# Step 3: Create your .env file
-echo "OPENAI_API_KEY=your_key_here"    > .env
-echo "ANTHROPIC_API_KEY=your_key_here" >> .env
-echo "SERPER_API_KEY=your_key_here"    >> .env
+# For Mac:
+brew install python3
 
-echo "✅ Setup complete! You're ready to build autonomous agents."
+# For Ubuntu/Linux:
+sudo apt update && sudo apt install python3 python3-pip -y
+
+# Verify installation:
+python --version     # Should show Python 3.10 or higher
+pip --version        # Should show pip version
 ```
 
-> 🔑 **Free API Keys:** OpenAI at [platform.openai.com](https://platform.openai.com) | Anthropic at [console.anthropic.com](https://console.anthropic.com) | Serper at [serper.dev](https://serper.dev)
+---
+
+### Step 2 — Install VS Code
+
+**What is VS Code?** A free code editor — like Microsoft Word but for writing code. It has features that help you write, debug, and run code.
+
+```
+Download from: https://code.visualstudio.com/
+
+After installing, add these extensions:
+1. Open VS Code
+2. Press Ctrl+Shift+X (or Cmd+Shift+X on Mac) to open Extensions
+3. Search and install:
+   - "Python" by Microsoft
+   - "Jupyter" by Microsoft
+   - "GitLens" by GitKraken (optional, helps with GitHub)
+```
 
 ---
 
+### Step 3 — Create Virtual Environment
 
+**What is a virtual environment?** An isolated container for your project's libraries. Prevents conflicts between different projects. Think of it like separate drawers — each project has its own drawer.
 
-## 🟢 BRIEF — Foundation (Weeks 1–4)
+```bash
+# Navigate to where you want to keep the course files:
+mkdir zero-to-agentic-ai
+cd zero-to-agentic-ai
 
-> **Thinglish Note:** ఈ weeks లో మీరు concepts అర్థం చేసుకోవాలి — deep గా వెళ్ళవద్దు. Autonomous agents build చేయడానికి ఇవి foundation మాత్రమే.
->
-> In these weeks: understand the concept, don't go deep. These are foundation only — not the core skill.
+# Create virtual environment:
+python -m venv agentic_env
+
+# Activate it:
+# On Windows:
+agentic_env\Scripts\activate
+
+# On Mac/Linux:
+source agentic_env/bin/activate
+
+# You should now see (agentic_env) at the start of your terminal line
+# This means the virtual environment is active ✅
+```
 
 ---
 
-### Day 1 — Python Basics
+### Step 4 — Install All Libraries
 
-**అర్థం (Meaning):** Python అనేది AI రాయడానికి వాడే language. Rules రాయడం కాదు — examples నుండి learn అయ్యే programs రాయడానికి వాడతాం.
+**What are libraries?** Pre-written code packages that do complex things for you. Instead of writing RAG from scratch, you import `langchain`. Instead of building a web server, you import `fastapi`.
 
-**Real-time Example:** An autonomous booking agent needs to store destination (variable), loop through flight options (for loop), store details (dictionary) — all Python basics.
+```bash
+# Make sure your virtual environment is active first!
+# You should see (agentic_env) in your terminal
+
+# Core AI libraries
+pip install openai                    # OpenAI GPT API
+pip install anthropic                 # Claude API by Anthropic
+pip install google-generativeai       # Gemini API by Google
+
+# LangChain ecosystem (agent framework)
+pip install langchain                 # Core LangChain
+pip install langchain-openai          # LangChain + OpenAI integration
+pip install langchain-community       # Community tools and integrations
+pip install langchain-core            # Core abstractions
+
+# Agent frameworks
+pip install crewai                    # Multi-agent teams
+pip install crewai-tools              # CrewAI tool integrations
+pip install langgraph                 # Stateful agent workflows
+
+# Vector databases and embeddings
+pip install sentence-transformers     # Free local embedding models
+pip install chromadb                  # Local vector database
+pip install mem0ai                    # Agent long-term memory
+
+# Web and API
+pip install fastapi                   # Build REST APIs
+pip install uvicorn                   # Run FastAPI server
+pip install pydantic                  # Data validation
+
+# Utilities
+pip install duckduckgo-search         # Free web search for agents
+pip install mcp                       # Model Context Protocol
+pip install python-dotenv             # Load .env files
+pip install requests                  # Make HTTP requests
+pip install pandas                    # Data manipulation
+pip install numpy                     # Numerical operations
+
+# Verify everything installed:
+pip list | grep -E "openai|langchain|crewai|chromadb"
+```
+
+---
+
+### Step 5 — Get API Keys
+
+**What is an API key?** A unique password that lets your code access AI services. Keep these private — never share or commit to GitHub.
+
+```
+OPENAI API KEY:
+1. Go to: https://platform.openai.com/api-keys
+2. Sign up / Log in
+3. Click "Create new secret key"
+4. Copy the key (starts with sk-)
+5. Free tier: $5 credit to start
+6. GPT-4o-mini costs ~$0.001 per 1000 tokens (very cheap!)
+
+ANTHROPIC API KEY:
+1. Go to: https://console.anthropic.com/
+2. Sign up / Log in
+3. Click "Get API Keys"
+4. Create key (starts with sk-ant-)
+5. Free tier available
+
+SERPER API KEY (for web search in agents):
+1. Go to: https://serper.dev
+2. Sign up
+3. Copy API key from dashboard
+4. Free tier: 2500 searches/month
+```
+
+---
+
+### Step 6 — Create .env File
+
+**What is a .env file?** A special file that stores secret values like API keys. Your code reads from it — so keys never appear in your code directly.
+
+```bash
+# In your project folder, create a file called .env:
+touch .env    # Mac/Linux
+# On Windows: create new file, name it .env
+
+# Open .env and add your keys:
+OPENAI_API_KEY=sk-your-actual-key-here
+ANTHROPIC_API_KEY=sk-ant-your-actual-key-here
+SERPER_API_KEY=your-serper-key-here
+
+# CRITICAL: Add .env to .gitignore so you never accidentally upload keys:
+echo ".env" >> .gitignore
+echo "agentic_env/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+```
+
+---
+
+### Step 7 — Verify Everything Works
 
 ```python
-# What an agent does with Python basics every day:
+# Create a file: verify_setup.py
+# Run it: python verify_setup.py
 
-user_goal = "Book a flight from Hyderabad to Mumbai"  # variable
+import sys
+print("=" * 50)
+print("SETUP VERIFICATION")
+print("=" * 50)
 
-flight_info = {                   # dictionary — agents use this constantly
-    "from": "Hyderabad",
-    "to": "Mumbai",
-    "price": 4500,
-    "airline": "IndiGo"
-}
+# Check Python version
+print(f"✅ Python: {sys.version.split()[0]}")
 
-available_flights = [             # list — store multiple options
-    {"time": "6:00 AM", "price": 4500},
-    {"time": "2:00 PM", "price": 3800},
+# Check all libraries
+libraries = [
+    "openai", "anthropic", "langchain", "crewai",
+    "langgraph", "chromadb", "sentence_transformers",
+    "fastapi", "pandas", "numpy"
 ]
 
-# Agent loops through options to find cheapest
-cheapest = min(available_flights, key=lambda f: f["price"])
-print(f"Best flight: {cheapest['time']} at ₹{cheapest['price']}")
-# Output: Best flight: 2:00 PM at ₹3800
+for lib in libraries:
+    try:
+        __import__(lib.replace("-", "_"))
+        print(f"✅ {lib}: installed")
+    except ImportError:
+        print(f"❌ {lib}: NOT installed — run: pip install {lib}")
+
+# Check .env file
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+openai_key = os.getenv("OPENAI_API_KEY")
+if openai_key and openai_key.startswith("sk-"):
+    print("✅ OpenAI API key: found")
+else:
+    print("❌ OpenAI API key: missing — check your .env file")
+
+print("=" * 50)
+print("If all ✅ — you're ready to start! 🎉")
+print("=" * 50)
 ```
 
-> 📺 **Resource:** [Python in 1 Hour — Mosh](https://www.youtube.com/watch?v=kqtD5dpn9C8)
+```bash
+# How to run this:
+python verify_setup.py
+```
+
+---
+
+### Step 8 — Test First API Call
+
+```python
+# Create: test_api.py
+# This confirms your API key works before Day 15
+
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+from openai import OpenAI
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+print("Testing OpenAI API connection...")
+try:
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": "Say 'Setup complete!' in one sentence."}],
+        max_tokens=50
+    )
+    print("✅ API works!")
+    print("Response:", response.choices[0].message.content)
+    print(f"Tokens used: {response.usage.total_tokens}")
+except Exception as e:
+    print(f"❌ Error: {e}")
+    print("Check your OPENAI_API_KEY in .env file")
+```
+
+```bash
+python test_api.py
+# Expected output:
+# Testing OpenAI API connection...
+# ✅ API works!
+# Response: Setup complete! Your OpenAI API connection is working.
+# Tokens used: 15
+```
+
+---
+
+---
+
+## 🟢 WEEK 1 — Python for AI
+
+> **Goal this week:** Learn Python concepts that agents use every day. ఈ week లో deep గా వెళ్ళవద్దు — just understand enough to write agent code.
+
+---
+
+### Day 1 — Python Basics + Data Types
+
+**⏱️ Duration: 1 hour**
+
+**అర్థం (Telugu Meaning):**
+Python అంటే ఒక programming language. Agents write చేయాలంటే Python తెలియాలి. కానీ మనం అన్నీ నేర్చుకోవాల్సిన అవసరం లేదు — just agents కి అవసరమైన concepts మాత్రమే.
+
+**English Meaning:**
+Python is the programming language used for all AI development. You don't need to master all of Python — just the parts that agents use daily.
+
+**Real-world Connection:**
+When an autonomous travel agent runs, every piece of data it handles — the user's destination, list of available flights, hotel details — is stored in Python variables, lists, and dictionaries. This is why you need to understand these first.
+
+---
+
+#### 📝 1.1 Variables — Labelled Storage Boxes
+
+**Concept:** A variable is like a labelled box. You put data in it, give it a name, and use that name to get the data back later.
+
+```
+Without variables:             With variables:
+print("Mumbai")                destination = "Mumbai"
+print("Mumbai")                print(destination)
+print("Mumbai")                print(destination)
+                               # If you change the city, change it ONE place
+                               destination = "Goa"  # Updated everywhere
+```
+
+```python
+# How to run this code:
+# 1. Create a new file: day1_variables.py
+# 2. Copy this code into it
+# 3. In terminal: python day1_variables.py
+
+# --- Variables and data types ---
+
+# String — text data (always in quotes)
+city            = "Hyderabad"
+airline         = "IndiGo"
+user_name       = "Sisi"
+
+# Integer — whole numbers (no quotes)
+passengers      = 2
+flight_number   = 101
+
+# Float — decimal numbers
+ticket_price    = 4500.50
+gst_rate        = 0.18
+
+# Boolean — True or False only
+is_confirmed    = True
+has_meal        = False
+
+# Print them
+print(f"Booking for: {user_name}")
+print(f"From: Hyderabad")
+print(f"To: {city}")
+print(f"Passengers: {passengers}")
+print(f"Price: ₹{ticket_price}")
+print(f"Confirmed: {is_confirmed}")
+
+# ── Real AI use case ─────────────────────────────────────────
+# LLM prediction result stored in variables:
+predicted_class = "spam"        # str
+confidence      = 0.94          # float — 94% confident
+is_spam         = True          # bool — action: block email
+
+print(f"\nEmail classified as: {predicted_class}")
+print(f"Confidence: {confidence * 100}%")
+print(f"Block email: {is_spam}")
+```
+
+```
+Expected output:
+Booking for: Sisi
+From: Hyderabad
+To: Hyderabad
+Passengers: 2
+Price: ₹4500.5
+Confirmed: True
+
+Email classified as: spam
+Confidence: 94.0%
+Block email: True
+```
+
+---
+
+#### 📝 1.2 Lists — Ordered Collections
+
+**Concept:** A list stores multiple items in order. Think of it like a shopping list. Agents use lists to store search results, flight options, memory items.
+
+```python
+# File: day1_lists.py
+# Run: python day1_lists.py
+
+# Creating lists
+flight_options = ["6E101", "AI202", "SG303", "IX404"]
+prices         = [4500, 3800, 4100, 5200]
+cities         = ["Mumbai", "Delhi", "Bangalore", "Chennai"]
+
+# Accessing items — index starts at 0 (not 1!)
+print(flight_options[0])     # 6E101 (first item)
+print(flight_options[-1])    # IX404 (last item)
+print(prices[1])             # 3800 (second item)
+
+# Slicing — get a range of items
+print(prices[0:3])           # [4500, 3800, 4100] — first 3
+
+# List operations
+flight_options.append("UK505")    # Add to end
+flight_options.remove("SG303")   # Remove specific item
+print(len(flight_options))        # 4 — how many items
+
+# Loop through a list (VERY common in agent code)
+print("\nAll flights and prices:")
+for i in range(len(flight_options)):
+    print(f"  {flight_options[i]}: ₹{prices[i]}")
+
+# Find cheapest price
+cheapest = min(prices)
+print(f"\nCheapest ticket: ₹{cheapest}")
+
+# List comprehension — powerful shortcut
+expensive_flights = [p for p in prices if p > 4000]
+print(f"Expensive flights (>₹4000): {expensive_flights}")
+```
+
+---
+
+#### 📝 1.3 Dictionaries — Labelled Data Containers
+
+**Concept:** A dictionary stores key-value pairs. Like a real dictionary where you look up a word (key) to get its meaning (value). Agents use dictionaries for EVERYTHING — tool responses, API results, user preferences.
+
+```python
+# File: day1_dicts.py
+# Run: python day1_dicts.py
+
+# Creating a dictionary
+flight = {
+    "id":           "6E101",
+    "airline":      "IndiGo",
+    "from":         "Hyderabad",
+    "to":           "Mumbai",
+    "departure":    "06:00",
+    "arrival":      "07:30",
+    "price":        4500,
+    "seats_left":   12,
+    "meal":         False
+}
+
+# Accessing values
+print(flight["airline"])           # IndiGo
+print(flight["price"])             # 4500
+print(flight.get("wifi", "N/A"))   # N/A — safe access for missing keys
+
+# Modifying values
+flight["price"] = 4350             # Update price
+flight["meal"]  = True             # Update meal status
+
+# Adding new key
+flight["booking_ref"] = "FE48291"
+
+# Looping through dictionary
+print("\nFlight details:")
+for key, value in flight.items():
+    print(f"  {key}: {value}")
+
+# Nested dictionary — dict inside dict
+user = {
+    "name":     "Sisi",
+    "email":    "sisi@webortex.com",
+    "preferences": {
+        "seat":  "window",
+        "meal":  "vegetarian",
+        "class": "economy"
+    }
+}
+
+print(f"\nUser: {user['name']}")
+print(f"Seat preference: {user['preferences']['seat']}")
+
+# List of dicts — how agent tool responses look
+search_results = [
+    {"id": "6E101", "airline": "IndiGo",    "price": 4500, "time": "06:00"},
+    {"id": "AI202", "airline": "Air India", "price": 3800, "time": "14:00"},
+    {"id": "SG303", "airline": "SpiceJet",  "price": 3650, "time": "20:00"},
+]
+
+# Find cheapest from list of dicts
+cheapest = min(search_results, key=lambda x: x["price"])
+print(f"\nCheapest: {cheapest['airline']} at ₹{cheapest['price']}")
+```
+
+---
+
+#### ⚠️ Common Mistakes on Day 1
+
+```python
+# File: day1_mistakes.py
+
+# MISTAKE 1: Comparing with wrong type
+age = "25"                 # stored as string (has quotes)
+# if age > 18:             # ERROR! Can't compare string with int
+#     print("Adult")
+
+# FIX:
+age = int("25")            # convert to int first
+if age > 18:
+    print("Adult")         # works!
+
+# MISTAKE 2: IndexError — accessing outside list
+fruits = ["apple", "banana", "mango"]
+# print(fruits[3])         # ERROR! Only indices 0, 1, 2 exist
+
+# FIX: Check length first
+if len(fruits) > 3:
+    print(fruits[3])
+else:
+    print("Only", len(fruits), "fruits available")
+
+# MISTAKE 3: KeyError — accessing missing dict key
+user = {"name": "Sisi", "city": "Hyderabad"}
+# print(user["phone"])     # ERROR! "phone" key doesn't exist
+
+# FIX: Use .get() with default
+print(user.get("phone", "No phone provided"))  # safe
+```
+
+---
+
+#### 📚 Day 1 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Python for Beginners — Mosh Hamedani](https://www.youtube.com/watch?v=kqtD5dpn9C8) | 📺 YouTube | 1 hr | Variables, lists, dicts from scratch |
+| [Python Official Tutorial](https://docs.python.org/3/tutorial/introduction.html) | 📖 Docs | 30 min | Official language reference |
+| [W3Schools Python Variables](https://www.w3schools.com/python/python_variables.asp) | 📖 Blog | 15 min | Interactive examples |
+| [Python Cheat Sheet — Dave Child](https://cheat.sh/python) | 📝 Reference | Quick ref | Syntax quick lookup |
 
 **[⬆ Back to Top](#-table-of-contents)**
 
 ---
 
-### Day 2 — OOP — Classes and Objects
+### Day 2 — Python Loops + Functions
 
-**అర్థం:** Class అంటే blueprint (design). Object అంటే దాని నుండి create అయిన real thing. ప్రతీ AI agent ఒక class గా built అవుతుంది.
+**⏱️ Duration: 1 hour**
 
-**Real-time Example:** Every LangChain agent, every CrewAI agent is a class. You create objects from them.
+**అర్థం:** Loops పనులు repeat చేయడానికి. Functions reusable code blocks. Agents లో ప్రతీ tool ఒక function.
+
+**English:** Loops do repetitive tasks. Functions package reusable logic. In agents, every tool the agent can use is written as a function.
+
+---
+
+#### 📝 2.1 For Loops
 
 ```python
-class AutonomousAgent:
-    def __init__(self, name: str, role: str, tools: list):
-        self.name   = name
-        self.role   = role
-        self.tools  = tools
-        self.memory = []          # agent remembers past actions
+# File: day2_loops.py
+# Run: python day2_loops.py
+
+# Basic for loop
+cities = ["Mumbai", "Delhi", "Bangalore", "Goa", "Chennai"]
+
+print("All destinations:")
+for city in cities:
+    print(f"  - {city}")
+
+# Loop with index (enumerate)
+print("\nNumbered list:")
+for i, city in enumerate(cities, start=1):
+    print(f"  {i}. {city}")
+
+# Range loop (repeat N times)
+print("\nCounting:")
+for i in range(1, 6):          # 1, 2, 3, 4, 5
+    print(f"  Attempt {i}")
+
+# Loop with condition inside (filter)
+prices = [4500, 3200, 8900, 2800, 6700, 3100]
+print("\nBudget flights (under ₹5000):")
+for price in prices:
+    if price < 5000:
+        print(f"  ₹{price}")
+
+# While loop — repeat until condition is false
+print("\nWaiting for confirmation:")
+attempts = 0
+confirmed = False
+while not confirmed and attempts < 3:
+    attempts += 1
+    print(f"  Attempt {attempts}: Checking status...")
+    if attempts == 3:
+        confirmed = True
+print(f"  Confirmed after {attempts} attempts")
+```
+
+---
+
+#### 📝 2.2 List Comprehensions
+
+**Concept:** A compact, readable way to create lists using loops. Used everywhere in AI code.
+
+```python
+# File: day2_comprehensions.py
+
+prices = [4500, 3200, 8900, 2800, 6700, 3100, 5600]
+
+# Traditional loop (longer way):
+budget_flights = []
+for p in prices:
+    if p < 5000:
+        budget_flights.append(p)
+
+# List comprehension (shorter, same result):
+budget_flights = [p for p in prices if p < 5000]
+print("Budget:", budget_flights)        # [4500, 3200, 2800, 3100]
+
+# Transform and filter together
+# Add GST to all budget flights:
+with_gst = [round(p * 1.18, 2) for p in prices if p < 5000]
+print("With GST:", with_gst)
+
+# Real AI use: normalize values to 0-1 range
+raw_scores = [0.1, 0.9, 0.4, 0.7, 0.3]
+max_score  = max(raw_scores)
+normalized = [round(s / max_score, 3) for s in raw_scores]
+print("Normalized scores:", normalized)
+```
+
+---
+
+#### 📝 2.3 Functions
+
+**Concept:** A function is a reusable block of code. You define it once, call it many times. In autonomous agents, every tool the agent can call is a function.
+
+```python
+# File: day2_functions.py
+# Run: python day2_functions.py
+
+# Basic function
+def greet(name):
+    """Greet a user by name."""
+    return f"Hello, {name}! Welcome to AI Travel Assistant."
+
+message = greet("Sisi")
+print(message)
+
+# Function with multiple parameters and default values
+def calculate_total(base_price, tax_rate=0.18, discount=0):
+    """
+    Calculate final price with tax and discount.
+
+    Parameters:
+        base_price: Original price
+        tax_rate:   GST rate (default 18%)
+        discount:   Discount amount (default 0)
+
+    Returns:
+        Final price after tax and discount
+    """
+    after_discount = base_price - discount
+    tax_amount     = after_discount * tax_rate
+    total          = after_discount + tax_amount
+    return round(total, 2)
+
+# Calling with different arguments
+print(calculate_total(4500))                 # default tax, no discount
+print(calculate_total(4500, discount=500))   # with discount
+print(calculate_total(8000, 0.18, 1000))     # all arguments
+
+# ── THIS IS HOW AGENT TOOLS ARE WRITTEN ──────────────────────
+def search_flights(origin: str, destination: str, date: str,
+                   passengers: int = 1) -> list:
+    """
+    Search available flights between two cities.
+
+    Real agent tool — this would call a flight API in production.
+    For learning, we return simulated data.
+
+    Args:
+        origin:      Departure city (e.g., "Hyderabad")
+        destination: Arrival city (e.g., "Mumbai")
+        date:        Travel date in YYYY-MM-DD format
+        passengers:  Number of passengers (default 1)
+
+    Returns:
+        List of available flights with details
+    """
+    # In production: call Amadeus, Skyscanner, or Cleartrip API
+    # For learning: return simulated data
+    simulated_flights = [
+        {
+            "id":        "6E101",
+            "airline":   "IndiGo",
+            "departure": f"{date} 06:00",
+            "arrival":   f"{date} 07:30",
+            "duration":  "1h 30m",
+            "price":     4500 * passengers,
+            "seats":     12
+        },
+        {
+            "id":        "AI202",
+            "airline":   "Air India",
+            "departure": f"{date} 14:00",
+            "arrival":   f"{date} 15:45",
+            "duration":  "1h 45m",
+            "price":     3800 * passengers,
+            "seats":     3
+        }
+    ]
+    return simulated_flights
+
+# Call the function (exactly like an agent would)
+results = search_flights("Hyderabad", "Mumbai", "2026-06-15", passengers=2)
+for flight in results:
+    print(f"\n{flight['airline']} {flight['id']}")
+    print(f"  Departs: {flight['departure']}")
+    print(f"  Price:   ₹{flight['price']}")
+    print(f"  Seats:   {flight['seats']} left")
+```
+
+---
+
+#### 📝 2.4 Lambda Functions
+
+**Concept:** Short, one-line functions. Used heavily when sorting or filtering agent data.
+
+```python
+# File: day2_lambda.py
+
+flights = [
+    {"id": "6E101", "price": 4500, "time": "06:00"},
+    {"id": "AI202", "price": 3800, "time": "14:00"},
+    {"id": "SG303", "price": 3200, "time": "20:00"},
+    {"id": "IX404", "price": 5200, "time": "09:00"},
+]
+
+# Sort by price (cheapest first)
+sorted_by_price = sorted(flights, key=lambda f: f["price"])
+print("Cheapest first:")
+for f in sorted_by_price:
+    print(f"  {f['id']}: ₹{f['price']}")
+
+# Sort by time
+sorted_by_time = sorted(flights, key=lambda f: f["time"])
+print("\nEarliest first:")
+for f in sorted_by_time:
+    print(f"  {f['id']}: {f['time']}")
+
+# Filter using lambda with filter()
+budget = list(filter(lambda f: f["price"] < 4000, flights))
+print(f"\nBudget options ({len(budget)} flights under ₹4000):")
+for f in budget:
+    print(f"  {f['id']}: ₹{f['price']}")
+```
+
+---
+
+#### 📚 Day 2 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Python Functions — Corey Schafer](https://www.youtube.com/watch?v=9Os0o3wzS_I) | 📺 YouTube | 30 min | Functions in depth |
+| [Python Loops — Programming with Mosh](https://www.youtube.com/watch?v=94UHCEmprCY) | 📺 YouTube | 25 min | All loop types |
+| [List Comprehensions — Real Python](https://realpython.com/list-comprehension-python/) | 📖 Blog | 20 min | Comprehension patterns |
+
+**[⬆ Back to Top](#-table-of-contents)**
+
+---
+
+### Day 3 — OOP — Classes + Objects
+
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** OOP అంటే Object Oriented Programming. ప్రతీ AI agent ఒక class గా built అవుతుంది. LangChain, CrewAI — అన్నీ classes మీద built అయ్యాయి. దీన్ని అర్థం చేసుకోకుండా agent frameworks వాడలేం.
+
+**English:** Every AI agent framework (LangChain, CrewAI, LangGraph) is built using OOP. Understanding classes unlocks understanding of every AI tool you'll use.
+
+---
+
+#### 📝 3.1 Class vs Object
+
+```python
+# File: day3_classes.py
+# Run: python day3_classes.py
+
+# A CLASS is a blueprint (the design)
+# An OBJECT is the actual thing made from that blueprint
+
+class Flight:
+    """
+    A class representing a flight.
+    Blueprint for creating flight objects.
+    """
+
+    # __init__ runs automatically when you create a new object
+    def __init__(self, flight_id, airline, origin, destination, price):
+        # Store data on the object (self = the specific object)
+        self.flight_id   = flight_id
+        self.airline     = airline
+        self.origin      = origin
+        self.destination = destination
+        self.price       = price
+        self.is_booked   = False          # default value
+
+    # Methods = functions that belong to the class
+    def get_summary(self):
+        """Return a formatted flight summary."""
+        status = "BOOKED" if self.is_booked else "AVAILABLE"
+        return f"{self.airline} {self.flight_id}: {self.origin}→{self.destination} ₹{self.price} [{status}]"
+
+    def book(self, passenger_name):
+        """Book this flight."""
+        if self.is_booked:
+            return f"Sorry, {self.flight_id} is already booked!"
+        self.is_booked     = True
+        self.passenger     = passenger_name
+        return f"✅ Booked {self.flight_id} for {passenger_name}!"
+
+    def apply_discount(self, percent):
+        """Apply a percentage discount."""
+        discount_amount = self.price * (percent / 100)
+        self.price      = self.price - discount_amount
+        return f"New price after {percent}% discount: ₹{self.price}"
+
+
+# Creating objects from the class
+flight1 = Flight("6E101", "IndiGo",    "Hyderabad", "Mumbai", 4500)
+flight2 = Flight("AI202", "Air India", "Hyderabad", "Delhi",  6200)
+flight3 = Flight("SG303", "SpiceJet",  "Hyderabad", "Goa",    3800)
+
+# Using object methods
+print(flight1.get_summary())
+print(flight2.get_summary())
+
+print(flight1.book("Sisi"))
+print(flight1.get_summary())    # Now shows BOOKED
+print(flight1.book("Ram"))      # Already booked!
+
+print(flight3.apply_discount(10))
+```
+
+---
+
+#### 📝 3.2 Inheritance — How Agent Frameworks Work
+
+**Concept:** A child class inherits all features from a parent class, then adds its own. This is exactly how PyTorch models and LangChain agents are built.
+
+```python
+# File: day3_inheritance.py
+# Run: python day3_inheritance.py
+
+# BASE CLASS — general agent
+class BaseAgent:
+    """Every autonomous agent inherits from this."""
+
+    def __init__(self, name: str, role: str):
+        self.name    = name
+        self.role    = role
+        self.memory  = []        # stores past actions
+        self.active  = True
+
+    def remember(self, action: str):
+        """Store an action in agent memory."""
+        self.memory.append(action)
+
+    def get_memory(self) -> list:
+        """Return all stored memories."""
+        return self.memory
 
     def think(self, task: str) -> str:
-        thought = f"I need to {task}. Tools available: {self.tools}"
-        self.memory.append(thought)
-        return thought
+        """Basic thinking — child classes override this."""
+        return f"Thinking about: {task}"
 
-    def act(self, tool: str, input_data: str) -> str:
-        result = f"[{tool}] → {input_data}"
-        self.memory.append(result)
-        return result
+    def describe(self):
+        return f"Agent '{self.name}' — Role: {self.role} — Memory: {len(self.memory)} items"
 
-# Create agent object from class
-flight_agent = AutonomousAgent(
-    name="FlightBot",
-    role="Book flights autonomously",
-    tools=["search_flights", "book_ticket", "send_confirmation"]
-)
 
-print(flight_agent.think("find cheapest Mumbai flight"))
-print(flight_agent.act("search_flights", "HYD→BOM June 15"))
+# CHILD CLASS — specialized flight booking agent
+class FlightAgent(BaseAgent):
+    """Autonomous flight booking agent."""
+
+    def __init__(self, name: str):
+        # Call parent __init__ first!
+        super().__init__(name=name, role="Book and manage flights")
+        self.booked_flights = []     # extra state specific to flights
+
+    def think(self, task: str) -> str:
+        """Override parent's think — flight-specific reasoning."""
+        self.remember(f"THOUGHT: {task}")
+        return f"[FlightAgent] To {task}, I should: search → present → confirm → book"
+
+    def search_and_book(self, origin: str, destination: str) -> str:
+        """Agent's main capability."""
+        action = f"Searched {origin}→{destination}"
+        self.remember(action)
+
+        # Simulate booking
+        booking = {
+            "from":      origin,
+            "to":        destination,
+            "flight":    "6E101",
+            "status":    "confirmed"
+        }
+        self.booked_flights.append(booking)
+        self.remember(f"Booked: {booking}")
+        return f"✅ Flight booked: {origin} → {destination}"
+
+
+# ANOTHER CHILD CLASS — research agent
+class ResearchAgent(BaseAgent):
+    """Autonomous research and writing agent."""
+
+    def __init__(self, name: str):
+        super().__init__(name=name, role="Research topics and write reports")
+        self.reports = []
+
+    def think(self, task: str) -> str:
+        self.remember(f"RESEARCH THOUGHT: {task}")
+        return f"[ResearchAgent] To research '{task}': search → analyze → write → review"
+
+
+# Create and use agents
+flight_bot  = FlightAgent("FlightBot")
+research_ai = ResearchAgent("ResearchBot")
+
+# FlightBot thinking and acting
+print(flight_bot.think("book cheapest flight to Mumbai"))
+result = flight_bot.search_and_book("Hyderabad", "Mumbai")
+print(result)
+print(flight_bot.describe())
+print("Memory:", flight_bot.get_memory())
+
+print()
+
+# ResearchBot thinking
+print(research_ai.think("Autonomous AI market in 2026"))
+print(research_ai.describe())
 ```
 
+**📊 Diagram — Inheritance:**
+
 ```
-Blueprint vs Real:
-┌─────────────────────┐   create   ┌─────────────────────┐
-│ AutonomousAgent     │ ─────────▶ │ flight_agent        │
-│ name: ???           │            │ name: "FlightBot"   │
-│ role: ???           │            │ role: "Book flights" │
-│ def think()         │            │ think() — works!    │
-└─────────────────────┘            └─────────────────────┘
-     (Template)                         (Real agent)
+BaseAgent (Parent)
+├── name, role, memory
+├── remember(), get_memory()
+└── think() — basic version
+
+      ↓ inherits from
+
+FlightAgent (Child)          ResearchAgent (Child)
+├── All of BaseAgent          ├── All of BaseAgent
+├── booked_flights            ├── reports
+└── think() OVERRIDDEN        └── think() OVERRIDDEN
+    (flight-specific)             (research-specific)
+
+Real-world: LangChain's BaseTool, PyTorch's nn.Module
+            work EXACTLY this way!
 ```
 
-> 📺 **Resource:** [OOP in Python — Corey Schafer](https://www.youtube.com/watch?v=ZDa-Z5JzLYM)
+---
+
+#### 📚 Day 3 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [OOP in Python — Corey Schafer](https://www.youtube.com/watch?v=ZDa-Z5JzLYM) | 📺 YouTube | 1 hr | Classes, objects, inheritance |
+| [Python OOP — Tech With Tim](https://www.youtube.com/watch?v=Ej_02ICOIgs) | 📺 YouTube | 45 min | Practical OOP examples |
+| [OOP in Python — Real Python](https://realpython.com/python3-object-oriented-programming/) | 📖 Blog | 30 min | In-depth written guide |
+| [Python Classes Diagram](https://www.lucidchart.com/blog/python-class-diagram-tutorial) | 📝 Blog | 15 min | Visual class diagrams |
 
 **[⬆ Back to Top](#-table-of-contents)**
 
 ---
 
-### Day 3 — Error Handling + APIs
+### Day 4 — Error Handling + Working with APIs
 
-**అర్థం:** Autonomous agent APIs తో మాట్లాడుతుంది. APIs fail అవుతాయి. Agent crash కాకుండా gracefully handle చేయాలి.
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** Autonomous agents APIs తో నిరంతరం మాట్లాడతాయి. APIs fail అవుతాయి, timeout అవుతాయి, wrong data పంపుతాయి. Agent ఇవన్నీ gracefully handle చేయగలగాలి — crash కాకుండా.
+
+---
+
+#### 📝 4.1 Try-Except — Catching Errors
 
 ```python
-import requests, time
+# File: day4_errors.py
+# Run: python day4_errors.py
 
-def safe_api_call(url: str, retries: int = 3) -> dict:
-    """Agent-style API call with automatic retry."""
-    for attempt in range(retries):
+# Without error handling — crashes on any problem:
+# prices = [100, 200, 0, 400]
+# for p in prices:
+#     ratio = 1000 / p    # ZeroDivisionError when p=0!
+
+# With error handling — continues gracefully:
+prices = [100, 200, 0, 400, "invalid"]
+
+print("Processing prices:")
+for p in prices:
+    try:
+        ratio = 1000 / p
+        print(f"  ₹{p}: ratio = {ratio:.2f}")
+
+    except ZeroDivisionError:
+        print(f"  ₹{p}: Cannot divide by zero — skipping")
+
+    except TypeError:
+        print(f"  '{p}': Not a number — skipping")
+
+    except Exception as e:
+        # Catch anything else unexpected
+        print(f"  Unexpected error: {e}")
+
+# Finally — always runs (use for cleanup)
+print("\nProcessing complete")
+
+# ── MULTIPLE EXCEPTIONS ───────────────────────────────────────
+def safe_divide(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return "Error: Cannot divide by zero"
+    except TypeError as e:
+        return f"Error: Wrong type — {e}"
+
+print(safe_divide(100, 4))          # 25.0
+print(safe_divide(100, 0))          # Error: Cannot divide by zero
+print(safe_divide("100", 4))        # Error: Wrong type
+```
+
+---
+
+#### 📝 4.2 API Calls with Error Handling
+
+**Concept:** APIs (Application Programming Interfaces) are services that return data when you send a request. Every tool an agent uses — web search, flight booking, weather — is an API call.
+
+```python
+# File: day4_api.py
+# Run: python day4_api.py
+# Required: pip install requests
+
+import requests
+import time
+import json
+
+# ── BASIC API CALL ────────────────────────────────────────────
+def get_exchange_rate(from_currency: str, to_currency: str) -> dict:
+    """
+    Get exchange rate between two currencies.
+    Uses a free public API — no key required for basic use.
+    """
+    url = f"https://api.exchangerate-api.com/v4/latest/{from_currency}"
+
+    try:
+        # Make the request
+        response = requests.get(url, timeout=10)
+
+        # Check for HTTP errors (4xx, 5xx status codes)
+        response.raise_for_status()
+
+        # Parse JSON response
+        data = response.json()
+
+        # Extract the rate we need
+        rate = data["rates"].get(to_currency)
+        if rate is None:
+            return {"error": f"Currency {to_currency} not found"}
+
+        return {
+            "from":      from_currency,
+            "to":        to_currency,
+            "rate":      rate,
+            "updated":   data["date"]
+        }
+
+    except requests.exceptions.Timeout:
+        return {"error": "Request timed out after 10 seconds"}
+
+    except requests.exceptions.ConnectionError:
+        return {"error": "No internet connection"}
+
+    except requests.exceptions.HTTPError as e:
+        return {"error": f"API error: {e.response.status_code}"}
+
+    except json.JSONDecodeError:
+        return {"error": "API returned invalid data"}
+
+    except Exception as e:
+        return {"error": f"Unexpected error: {str(e)}"}
+
+
+# Call the function
+result = get_exchange_rate("USD", "INR")
+if "error" in result:
+    print(f"❌ {result['error']}")
+else:
+    print(f"✅ 1 {result['from']} = {result['rate']} {result['to']}")
+    print(f"   Rate as of: {result['updated']}")
+    print(f"   $500 = ₹{500 * result['rate']:,.2f}")
+
+
+# ── RETRY LOGIC — Critical for Production Agents ──────────────
+def api_with_retry(url: str, max_retries: int = 3,
+                   timeout: int = 10) -> dict:
+    """
+    Call an API with automatic retry on failure.
+    Uses exponential backoff: waits 1s, 2s, 4s between retries.
+    """
+    for attempt in range(1, max_retries + 1):
         try:
-            response = requests.get(url, timeout=10)
+            print(f"Attempt {attempt}/{max_retries}...")
+            response = requests.get(url, timeout=timeout)
             response.raise_for_status()
             return response.json()
+
         except requests.exceptions.Timeout:
-            print(f"⏱️ Attempt {attempt+1}: Timeout. Retrying in {2**attempt}s...")
-            time.sleep(2 ** attempt)       # exponential backoff: 1s, 2s, 4s
-        except requests.exceptions.HTTPError as e:
-            return {"error": str(e), "status": "failed"}
+            wait = 2 ** (attempt - 1)     # 1, 2, 4 seconds
+            print(f"  Timeout. Waiting {wait}s...")
+            if attempt < max_retries:
+                time.sleep(wait)
+
+        except requests.exceptions.ConnectionError:
+            wait = 2 ** (attempt - 1)
+            print(f"  Connection failed. Waiting {wait}s...")
+            if attempt < max_retries:
+                time.sleep(wait)
+
         except Exception as e:
-            return {"error": str(e), "status": "failed"}
-    return {"error": "All retries failed"}
+            print(f"  Error: {e}")
+            break    # Don't retry on unexpected errors
 
-# Agent uses this pattern for every external call
-result = safe_api_call("https://api.example.com/flights")
-if "error" in result:
-    print("Agent: Couldn't fetch flights. Trying alternative approach.")
+    return {"error": "All retry attempts failed"}
+
+
+# Test retry (using a public test API)
+data = api_with_retry("https://httpbin.org/get", max_retries=2)
+if "error" not in data:
+    print(f"\n✅ API call succeeded")
+    print(f"   URL: {data.get('url')}")
 ```
 
-> 📺 **Resource:** [Python Error Handling — Tech With Tim](https://www.youtube.com/watch?v=NIWwJbo-9_8)
+---
+
+#### 📝 4.3 Working with JSON
+
+**Concept:** APIs always return data in JSON format. Python's `json` module converts between JSON strings and Python dictionaries.
+
+```python
+# File: day4_json.py
+# Run: python day4_json.py
+
+import json
+
+# ── JSON STRING → PYTHON DICT ─────────────────────────────────
+# This is what you receive from an API:
+api_response_string = '''
+{
+    "status": "success",
+    "flights": [
+        {
+            "id": "6E101",
+            "airline": "IndiGo",
+            "price": 4500,
+            "seats": 12,
+            "amenities": ["wifi", "snacks"]
+        },
+        {
+            "id": "AI202",
+            "airline": "Air India",
+            "price": 3800,
+            "seats": 3,
+            "amenities": ["meal", "entertainment"]
+        }
+    ],
+    "currency": "INR",
+    "search_id": "abc123"
+}
+'''
+
+# Convert JSON string to Python dict
+data = json.loads(api_response_string)
+
+# Now use it like a normal Python dictionary
+print(f"Status: {data['status']}")
+print(f"Found {len(data['flights'])} flights")
+print(f"Currency: {data['currency']}")
+
+print("\nFlight details:")
+for flight in data["flights"]:
+    amenities = ", ".join(flight["amenities"])
+    print(f"  {flight['airline']} {flight['id']}: ₹{flight['price']} | Amenities: {amenities}")
+
+# ── PYTHON DICT → JSON STRING ─────────────────────────────────
+# This is what you SEND to an API:
+booking_request = {
+    "flight_id":    "6E101",
+    "passengers":   2,
+    "contact": {
+        "name":  "Sisi Singamsetti",
+        "email": "sisi@webortex.com",
+        "phone": "+91-9876543210"
+    }
+}
+
+# Convert to JSON string for sending
+json_string = json.dumps(booking_request, indent=2)
+print("\nBooking request (JSON):")
+print(json_string)
+
+# ── SAVE/LOAD JSON FILES ──────────────────────────────────────
+# Save agent memory to file
+agent_memory = {
+    "user_id": "sisi_001",
+    "preferences": {"seat": "window", "meal": "vegetarian"},
+    "past_bookings": ["6E101", "AI202"]
+}
+
+with open("agent_memory.json", "w") as f:
+    json.dump(agent_memory, f, indent=2)
+print("\n✅ Memory saved to agent_memory.json")
+
+# Load it back
+with open("agent_memory.json", "r") as f:
+    loaded_memory = json.load(f)
+print(f"Loaded preferences: {loaded_memory['preferences']}")
+```
+
+---
+
+#### 📚 Day 4 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Python Error Handling — Tech With Tim](https://www.youtube.com/watch?v=NIWwJbo-9_8) | 📺 YouTube | 30 min | Try-except patterns |
+| [Python Requests Library — Pretty Printed](https://www.youtube.com/watch?v=tb8gHvYlCFs) | 📺 YouTube | 25 min | Making API calls |
+| [Working with JSON in Python — Corey Schafer](https://www.youtube.com/watch?v=9N6a-VLBa2I) | 📺 YouTube | 20 min | JSON parsing |
+| [requests docs](https://docs.python-requests.org/en/latest/) | 📖 Docs | Reference | Official API library |
 
 **[⬆ Back to Top](#-table-of-contents)**
 
 ---
 
-### Day 4 — Math That Matters
+## 🟢 WEEK 2 — Math + Data Tools
 
-**అర్థం:** AI కి అవసరమైన math ఒక్కటే — vectors మరియు similarity. RAG systems, agent memory — అన్నీ ఇదే math వాడతాయి.
+---
 
-**Real-time Example:** When agent searches memory → finds most similar past experience using cosine similarity.
+### Day 5 — Math — Vectors + Embeddings
+
+**⏱️ Duration: 1.5 hours**
+
+**అర్థం:** Vector అంటే numbers యొక్క list. AI లో ప్రతీ word, sentence, document ఒక vector గా represent అవుతుంది. దీన్నే embedding అంటారు. RAG, agent memory, semantic search — అన్నీ ఇదే math మీద build అయ్యాయి.
+
+**English:** The single most important math concept for agentic AI. Every piece of text the agent handles is secretly a list of numbers. Understanding this unlocks RAG, memory systems, and semantic search.
+
+---
+
+#### 📝 5.1 What Is a Vector?
 
 ```python
+# File: day5_vectors.py
+# Run: python day5_vectors.py
+# Required: pip install numpy
+
 import numpy as np
 
-# Every word/sentence is a vector (list of numbers) in AI
-king  = np.array([0.8, 0.2, 0.9, 0.1])   # "king" embedding
-queen = np.array([0.7, 0.9, 0.8, 0.1])   # "queen" embedding
-pizza = np.array([0.1, 0.3, 0.2, 0.9])   # "pizza" embedding
+# A vector is just a list of numbers
+city_temperature = np.array([32, 28, 35, 26, 30])   # 5-day forecast
+stock_prices     = np.array([150.5, 152.3, 148.9])   # 3 days of prices
 
-def cosine_similarity(a, b):
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+print("Temperature vector:", city_temperature)
+print("Shape:", city_temperature.shape)    # (5,) means 5 elements, 1D
 
-print(f"king ↔ queen: {cosine_similarity(king, queen):.3f}")  # High — similar!
-print(f"king ↔ pizza: {cosine_similarity(king, pizza):.3f}")  # Low — unrelated!
+# Vector math — operations apply to ALL elements at once
+celsius    = np.array([32, 28, 35])
+fahrenheit = celsius * 9/5 + 32          # Convert all at once!
+print("Fahrenheit:", fahrenheit)
+
+# Magnitude — how "large" a vector is
+speed_components = np.array([3, 4])       # x=3, y=4
+magnitude        = np.linalg.norm(speed_components)
+print(f"Speed magnitude: {magnitude}")    # 5.0 (Pythagoras: √(3²+4²))
 ```
-
-```
-How Agent Memory Uses This:
-
-User asks: "Book flight like last time"
-              ↓ convert to vector
-         [0.8, 0.2, 0.7, ...]
-              ↓ compare with memories
-Memory 1: "Booked Mumbai IndiGo June 2025" → similarity: 0.94 ✅
-Memory 2: "Ordered biryani Tuesday"        → similarity: 0.09 ❌
-              ↓ retrieve best match
-Agent knows: User prefers IndiGo, morning flights, window seat
-```
-
-> 📺 **Resource:** [Essence of Linear Algebra — 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-
-**[⬆ Back to Top](#-table-of-contents)**
 
 ---
 
-### Day 5 — NumPy for Agents
-
-**అర్థం:** NumPy arrays embeddings store చేయడానికి వాడతాం. Shape, indexing, similarity operations — ఇవి library code లో కనిపిస్తాయి, అర్థమవ్వాలి.
+#### 📝 5.2 Text Embeddings — How AI Reads Text
 
 ```python
+# File: day5_embeddings.py
+# Run: python day5_embeddings.py
+# Required: pip install sentence-transformers numpy
+
+from sentence_transformers import SentenceTransformer
 import numpy as np
 
-# Embedding shapes you'll see constantly in agent code
-single_embed = np.zeros(1536)             # One document: 1536 dimensions
-batch_embed  = np.zeros((10, 1536))       # 10 documents at once
+# Load embedding model (downloads ~90MB first time, then cached)
+print("Loading embedding model...")
+model = SentenceTransformer("all-MiniLM-L6-v2")
+print("Model loaded!")
 
-print("Single:", single_embed.shape)      # (1536,)
-print("Batch: ", batch_embed.shape)       # (10, 1536)
+# Convert text to vector
+text      = "Book a flight from Hyderabad to Mumbai"
+embedding = model.encode(text)
 
-# Find top relevant documents (core of RAG)
-scores   = np.array([0.92, 0.45, 0.78, 0.33, 0.88])
-relevant = np.where(scores > 0.7)[0]
-print("Relevant docs:", relevant)         # [0 2 4]
-print("Their scores: ", scores[relevant]) # [0.92 0.78 0.88]
+print(f"\nText: '{text}'")
+print(f"Embedding shape: {embedding.shape}")   # (384,) — 384 numbers
+print(f"First 5 values:  {embedding[:5]}")
+print(f"Min value:       {embedding.min():.4f}")
+print(f"Max value:       {embedding.max():.4f}")
+
+# These 384 numbers REPRESENT the meaning of the sentence
+# Similar sentences → similar vectors
+# Different sentences → different vectors
 ```
 
-> 📺 **Resource:** [NumPy in 1 Hour — freeCodeCamp](https://www.youtube.com/watch?v=QUT1VHiLmmI)
+---
+
+#### 📝 5.3 Cosine Similarity — Measuring Meaning Distance
+
+**Concept:** Cosine similarity measures how similar two vectors are. 1.0 = identical meaning, 0.0 = completely unrelated, -1.0 = opposite meaning.
+
+```python
+# File: day5_similarity.py
+# Run: python day5_similarity.py
+
+from sentence_transformers import SentenceTransformer
+import numpy as np
+
+model = SentenceTransformer("all-MiniLM-L6-v2")
+
+def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
+    """
+    Calculate cosine similarity between two vectors.
+    Returns value between -1 and 1.
+    1.0 = identical, 0.0 = unrelated, -1.0 = opposite
+    """
+    dot_product = np.dot(a, b)
+    magnitude_a = np.linalg.norm(a)
+    magnitude_b = np.linalg.norm(b)
+    return dot_product / (magnitude_a * magnitude_b)
+
+# Base query
+base = "Book a flight from Hyderabad to Mumbai"
+base_embedding = model.encode(base)
+
+# Compare with different sentences
+comparisons = [
+    ("I need to travel to Mumbai",           "Very similar meaning"),
+    ("Book air ticket to Bombay",            "Similar — Bombay = Mumbai"),
+    ("Find cheapest flight to Maharashtra",  "Related — same destination"),
+    ("What restaurants are in Hyderabad?",   "Different topic"),
+    ("Order pizza online",                   "Completely unrelated"),
+]
+
+print(f"Base: '{base}'\n")
+print(f"{'Sentence':<50} {'Similarity':>10} {'Status':>15}")
+print("-" * 80)
+
+for sentence, description in comparisons:
+    sent_embedding = model.encode(sentence)
+    similarity     = cosine_similarity(base_embedding, sent_embedding)
+
+    if similarity > 0.7:
+        status = "✅ MATCH"
+    elif similarity > 0.4:
+        status = "🔶 PARTIAL"
+    else:
+        status = "❌ DIFFERENT"
+
+    print(f"'{sentence[:48]:<48}' {similarity:>10.4f} {status:>15}")
+    print(f"   → {description}")
+```
+
+---
+
+#### 📝 5.4 How This Powers Agent Memory
+
+```python
+# File: day5_memory_demo.py
+# Run: python day5_memory_demo.py
+
+from sentence_transformers import SentenceTransformer
+import numpy as np
+
+model = SentenceTransformer("all-MiniLM-L6-v2")
+
+# Simulate agent's stored memories
+memories = [
+    "User prefers window seats on all flights",
+    "User is vegetarian and needs special meal",
+    "User likes morning flights before 8 AM",
+    "User booked IndiGo airlines last month to Mumbai",
+    "User's travel budget is around ₹5000 per trip",
+    "User has allergies to nuts",
+]
+
+# Encode all memories into vectors
+memory_embeddings = model.encode(memories)
+
+def find_relevant_memories(query: str, top_k: int = 3) -> list:
+    """
+    Find the most relevant memories for a given query.
+    This is exactly how agent memory retrieval works!
+    """
+    query_embedding = model.encode(query)
+
+    # Calculate similarity with all memories
+    similarities = []
+    for i, mem_embedding in enumerate(memory_embeddings):
+        sim = np.dot(query_embedding, mem_embedding) / (
+            np.linalg.norm(query_embedding) * np.linalg.norm(mem_embedding)
+        )
+        similarities.append((sim, i, memories[i]))
+
+    # Sort by similarity (highest first)
+    similarities.sort(reverse=True)
+
+    return [(sim, mem) for sim, _, mem in similarities[:top_k]]
+
+# Test the memory system
+test_queries = [
+    "Book me a flight to Delhi",
+    "I want to eat something on the flight",
+    "What time should my flight be?",
+]
+
+for query in test_queries:
+    print(f"\n🔍 Query: '{query}'")
+    relevant = find_relevant_memories(query)
+    print("📚 Most relevant memories:")
+    for sim, memory in relevant:
+        print(f"   [{sim:.3f}] {memory}")
+```
+
+---
+
+#### 📚 Day 5 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Essence of Linear Algebra — 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | 📺 YouTube | 3 hrs | Visual vector intuition |
+| [Word Embeddings — StatQuest](https://www.youtube.com/watch?v=viZrOnJclY0) | 📺 YouTube | 15 min | Embeddings explained simply |
+| [Sentence Transformers Docs](https://sbert.net/docs/quickstart.html) | 📖 Docs | 15 min | Using the library |
+| [What are Embeddings? — Vicki Boykis](https://vickiboykis.com/what_are_embeddings/) | 📖 Blog | 30 min | Deep written explanation |
+| [OpenAI Embeddings Guide](https://platform.openai.com/docs/guides/embeddings) | 📖 Docs | 20 min | Production embeddings |
 
 **[⬆ Back to Top](#-table-of-contents)**
 
 ---
 
-### Day 6 — Pandas for Agents
+### Day 6 — NumPy — The Foundation of AI
 
-**అర్థం:** Agent structured data (CSV, database results, API responses) handle చేయాల్సి వస్తే Pandas వాడతాం.
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** NumPy arrays AI కి ప్రతీ computation కి foundation. Images, audio, embeddings, model weights — అన్నీ NumPy arrays గా store అవుతాయి.
 
 ```python
+# File: day6_numpy.py
+# Run: python day6_numpy.py
+# Required: pip install numpy
+
+import numpy as np
+
+# ── CREATING ARRAYS ───────────────────────────────────────────
+arr1 = np.array([1, 2, 3, 4, 5])             # from list
+arr2 = np.zeros((3, 4))                       # 3 rows, 4 cols of zeros
+arr3 = np.ones((2, 3))                        # 2 rows, 3 cols of ones
+arr4 = np.random.randn(5, 5)                  # random normal values
+arr5 = np.arange(0, 10, 2)                    # [0, 2, 4, 6, 8]
+arr6 = np.linspace(0, 1, 5)                   # [0, 0.25, 0.5, 0.75, 1.0]
+
+print("1D array:", arr1)
+print("Zeros shape:", arr2.shape)              # (3, 4)
+print("Arange:", arr5)
+print("Linspace:", arr6)
+
+# ── SHAPES — THE MOST IMPORTANT CONCEPT ─────────────────────
+# Shapes tell you the dimensions of your data
+
+single_embedding  = np.zeros(384)              # one text embedding
+print("\nSingle embedding:", single_embedding.shape)    # (384,)
+
+batch_embeddings  = np.zeros((10, 384))        # 10 texts at once
+print("Batch embeddings:", batch_embeddings.shape)      # (10, 384)
+
+rgb_image         = np.zeros((224, 224, 3))   # height × width × channels
+print("RGB image:", rgb_image.shape)                    # (224, 224, 3)
+
+batch_images      = np.zeros((32, 224, 224, 3)) # 32 images for AI training
+print("Batch images:", batch_images.shape)              # (32, 224, 224, 3)
+
+# ── VECTORIZED OPERATIONS — WHY NUMPY IS FAST ────────────────
+# Python loop (slow):
+import time
+data = list(range(1_000_000))
+start = time.time()
+squared_slow = [x**2 for x in data]
+slow_time = time.time() - start
+
+# NumPy (fast):
+data_np = np.arange(1_000_000)
+start = time.time()
+squared_fast = data_np ** 2
+fast_time = time.time() - start
+
+print(f"\nPython loop: {slow_time:.3f}s")
+print(f"NumPy:       {fast_time:.3f}s")
+print(f"NumPy is {slow_time/fast_time:.0f}x faster!")
+
+# ── INDEXING AND SLICING ──────────────────────────────────────
+scores = np.array([[85, 92, 78, 95],    # Student 1
+                   [72, 88, 95, 80],    # Student 2
+                   [90, 76, 83, 91]])   # Student 3
+
+print("\nAll scores:")
+print(scores)
+print("\nStudent 1:", scores[0])              # [85, 92, 78, 95]
+print("All maths:", scores[:, 0])            # [85, 72, 90]
+print("Submatrix:", scores[0:2, 1:3])        # [[92, 78], [88, 95]]
+
+# Boolean indexing — filter by condition
+relevance = np.array([0.92, 0.45, 0.78, 0.33, 0.88])
+relevant_mask    = relevance > 0.7
+relevant_indices = np.where(relevant_mask)[0]
+print("\nRelevant docs (>0.7):", relevant_indices)
+print("Their scores:", relevance[relevant_indices])
+
+# ── AXIS OPERATIONS ───────────────────────────────────────────
+# axis=0 → operate DOWN columns (per column stats)
+# axis=1 → operate ACROSS rows (per row stats)
+print("\nMean per student:", scores.mean(axis=1))   # [87.5, 83.75, 85.0]
+print("Mean per subject:", scores.mean(axis=0))    # [82.3, 85.3, 85.3, 88.7]
+print("Overall mean:", scores.mean())               # 85.3
+```
+
+#### 📚 Day 6 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [NumPy Complete Tutorial — freeCodeCamp](https://www.youtube.com/watch?v=QUT1VHiLmmI) | 📺 YouTube | 1 hr | NumPy from scratch |
+| [NumPy Official Quickstart](https://numpy.org/doc/stable/user/quickstart.html) | 📖 Docs | 30 min | Official guide |
+| [NumPy Cheat Sheet — DataCamp](https://www.datacamp.com/cheat-sheet/numpy-cheat-sheet-data-analysis-in-python) | 📝 PDF | Quick ref | All operations |
+
+**[⬆ Back to Top](#-table-of-contents)**
+
+---
+
+### Day 7 — Pandas — Data Manipulation
+
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** Pandas = Python's spreadsheet tool. Agents tool results process చేయడానికి, structured data read చేయడానికి, clean చేయడానికి వాడతాయి.
+
+```python
+# File: day7_pandas.py
+# Run: python day7_pandas.py
+# Required: pip install pandas
+
 import pandas as pd
+import numpy as np
 
-# Agent processing HR database query result
+# ── CREATING DATAFRAMES ───────────────────────────────────────
 data = {
-    "name":       ["Sisi", "Ram", "Anu", "Dev"],
-    "department": ["Tech", "HR", "Tech", "Sales"],
-    "salary":     [85000, 55000, 92000, 67000],
+    "name":       ["Sisi", "Ram", "Anu", "Dev", "Priya", "Kiran"],
+    "department": ["Tech", "HR", "Tech", "Sales", "Tech", "HR"],
+    "salary":     [85000, 55000, 92000, 67000, 78000, 59000],
+    "experience": [3, 5, 4, 2, 6, 3],
+    "city":       ["Hyderabad", "Chennai", "Bangalore", "Hyderabad", "Pune", "Mumbai"]
 }
 df = pd.DataFrame(data)
 
-# Agent answering: "Who are Tech employees earning above 80k?"
-result = df[(df["department"] == "Tech") & (df["salary"] > 80000)][["name","salary"]]
-print(result)
-#    name  salary
-#     Anu   92000
-#    Sisi   85000
+print("Full dataset:")
+print(df)
+print(f"\nShape: {df.shape}")    # (6, 5) = 6 rows, 5 columns
+print(f"\nColumn types:")
+print(df.dtypes)
+print(f"\nStatistical summary:")
+print(df.describe())
+
+# ── FILTERING — AGENT ANSWERING QUESTIONS ─────────────────────
+# Q: "Who are Tech employees earning above ₹80,000?"
+tech_high = df[(df["department"] == "Tech") & (df["salary"] > 80000)]
+print("\nTech employees > ₹80k:")
+print(tech_high[["name", "salary", "experience"]])
+
+# Q: "Show employees in Hyderabad or Chennai"
+hyd_chen = df[df["city"].isin(["Hyderabad", "Chennai"])]
+print("\nHyd/Chennai employees:")
+print(hyd_chen[["name", "city", "department"]])
+
+# ── GROUPBY — AGGREGATE BY CATEGORY ──────────────────────────
+# Q: "What is the average salary by department?"
+dept_stats = df.groupby("department").agg(
+    avg_salary   = ("salary",     "mean"),
+    max_salary   = ("salary",     "max"),
+    total_staff  = ("name",       "count"),
+    avg_exp      = ("experience", "mean")
+).round(0)
+
+print("\nDepartment Statistics:")
+print(dept_stats)
+
+# ── ADDING COLUMNS ────────────────────────────────────────────
+df["annual_bonus"]     = df["salary"] * 0.10
+df["seniority"]        = pd.cut(df["experience"],
+                                bins=[0, 2, 5, 100],
+                                labels=["Junior", "Mid", "Senior"])
+df["salary_grade"]     = df["salary"].apply(
+    lambda s: "A" if s > 80000 else ("B" if s > 65000 else "C")
+)
+
+print("\nEnriched dataset:")
+print(df[["name", "salary", "annual_bonus", "seniority", "salary_grade"]])
+
+# ── SORTING ───────────────────────────────────────────────────
+top3 = df.nlargest(3, "salary")[["name", "salary", "department"]]
+print("\nTop 3 earners:")
+print(top3)
+
+# ── REAL AGENT USE: PROCESSING TOOL RESULT ───────────────────
+# Imagine an agent called a database tool and got this data:
+tool_result = [
+    {"product": "Laptop",  "price": 45000, "stock": 5, "rating": 4.2},
+    {"product": "Phone",   "price": 18000, "stock": 12,"rating": 4.5},
+    {"product": "Tablet",  "price": 25000, "stock": 0, "rating": 4.0},
+    {"product": "Headset", "price": 3500,  "stock": 8, "rating": 4.8},
+]
+
+products_df = pd.DataFrame(tool_result)
+
+# Agent answering: "Which in-stock products are rated above 4.3?"
+available = products_df[
+    (products_df["stock"] > 0) & (products_df["rating"] >= 4.3)
+].sort_values("rating", ascending=False)
+
+print("\nAvailable products rated 4.3+:")
+print(available[["product", "price", "rating", "stock"]])
 ```
 
-> 📺 **Resource:** [Pandas in 1 Hour — Corey Schafer](https://www.youtube.com/watch?v=ZyhVh-qRZPA)
+#### 📚 Day 7 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Pandas Tutorial — Corey Schafer](https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) | 📺 YouTube | 2 hrs | Complete Pandas |
+| [Pandas in 10 Minutes — Official](https://pandas.pydata.org/docs/user_guide/10min.html) | 📖 Docs | 30 min | Quick overview |
+| [Pandas Cheat Sheet — Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) | 📝 PDF | Quick ref | All operations |
 
 **[⬆ Back to Top](#-table-of-contents)**
 
 ---
 
-### Day 7 — What is Machine Learning?
+### Day 8 — What is Machine Learning?
 
-**అర్థం:** Rules రాయడం కాదు — examples చూపించి computer కి pattern నేర్పించడం.
+**⏱️ Duration: 1 hour**
 
-```
-Traditional Programming:       Machine Learning:
-IF price > 50000               Show model 10,000 houses with prices.
-AND area > 1000 sqft           Model figures out the rule itself.
-THEN "expensive house"
-(You write the rules)          (Model learns the rules from data)
-
-LLMs are ML models — trained on billions of text examples.
-When you call ChatGPT, you are doing INFERENCE (using trained model).
-You are NOT training anything.
-```
-
-> **Key terms to know:** Training, Inference, Model, Dataset, Label, Prediction, Accuracy
-
-> 📺 **Resource:** [ML for Everyone — Andrew Ng (30 min)](https://www.youtube.com/watch?v=GwIo3gDZCVQ)
-
-**[⬆ Back to Top](#-table-of-contents)**
+**అర్థం:** Machine learning అంటే — rules రాయడం కాదు, examples నుండి rules నేర్పించడం. LLMs (GPT, Claude) అన్నీ ML models. ఈ concept అర్థమైతే agent code లో "model," "training," "inference" అని కనిపించినప్పుడు మీకు అర్థమవుతుంది.
 
 ---
 
-### Day 8 — Neural Networks Concept
-
-**అర్థం:** Neural network = layers of math. Input → layers → output. LLMs are very large neural networks.
+#### 📝 8.1 The Core Idea
 
 ```
-Input: "Book a flight to Mumbai"
-    ↓ Tokenize
-["Book", " a", " flight", " to", " Mumbai"]
-    ↓ Convert to vectors
-    ↓ Pass through 96 transformer layers (GPT-4 has 96!)
-    ↓ Each layer understands more context
-    ↓ Output layer predicts next token
-"I'll help you book a flight to Mumbai!"
+TRADITIONAL PROGRAMMING:          MACHINE LEARNING:
+────────────────────────          ────────────────────────────
+You write the rules               You show examples with answers
+Computer follows rules            Computer figures out the rules
+
+Example: Spam detector            Example: Spam detector
+
+IF email contains "FREE"          Show 10,000 spam emails ✉️
+AND sender is unknown             Show 10,000 normal emails ✉️
+AND has link                      → Computer learns what spam looks like
+THEN → SPAM                       → Now it can classify NEW emails
+
+Problem: You can't write rules    Advantage: Works for problems where
+for everything (face recognition, rules are too complex to write
+language translation, voice       (image recognition, translation,
+recognition, etc.)                speech, autonomous agents)
 ```
-
-> **Why you need this:** LLMs are neural networks. Understanding this helps you know WHY they have context windows, WHY they sometimes hallucinate.
-
-> 📺 **Resource:** [Neural Networks — 3Blue1Brown (20 min)](https://www.youtube.com/watch?v=aircAruvnKk)
-
-**[⬆ Back to Top](#-table-of-contents)**
-
----
-
-### Day 9 — Training vs Inference vs Fine-tuning
-
-**అర్థం:** Training = model నేర్చుకోవడం (OpenAI చేసింది, millions of dollars). Inference = model వాడటం (మీరు చేస్తున్నది, cents per call). Fine-tuning = already trained model ని మీ data తో further train చేయడం.
-
-```
-TRAINING:                    INFERENCE:               FINE-TUNING:
-─────────────────────        ─────────────────────    ─────────────────────
-Weights adjust               Weights FIXED            Weights adjust (slightly)
-Billions of examples         Your single request      Your domain data (1000s)
-3 months on 10,000 GPUs      Milliseconds             Hours on 1 GPU
-Done by OpenAI/Anthropic     Done by YOU              Done by YOU
-Costs $5M+                   Costs $0.001             Costs $50-500
-
-When you call ChatGPT → INFERENCE only. Period.
-```
-
-> 📖 **Resource:** [Fine-tuning Guide — OpenAI Docs](https://platform.openai.com/docs/guides/fine-tuning)
-
-**[⬆ Back to Top](#-table-of-contents)**
-
----
-
-### Day 10 — Loss, Optimization, Evaluation
-
-**అర్థం:** Loss = model ఎంత wrong గా ఉందో measure. Optimization = loss తగ్గించడం. Evaluation = final performance check.
-
-```
-Prediction: "Capital of India is Mumbai"   ← WRONG
-True answer: "Capital of India is Delhi"
-                    ↓
-Loss = BIG (very wrong)
-                    ↓
-Adjust weights slightly
-                    ↓
-Prediction: "Capital of India is Delhi"    ← CORRECT
-Loss = 0
-
-You never write this for LLMs. OpenAI did it already.
-You need to understand it to understand: RLHF, DPO, Reward models.
-```
-
-> 📺 **Resource:** [Gradient Descent — StatQuest (15 min)](https://www.youtube.com/watch?v=sDv4f4s2SB8)
-
-**[⬆ Back to Top](#-table-of-contents)**
-
----
-
-### Day 11 — PyTorch Tensors
-
-**అర్థం:** Tensor = NumPy array that runs on GPU. Agent code లో directly రాయవలసిన పని లేదు — కానీ library code చదివేటప్పుడు అర్థమవ్వాలి.
 
 ```python
+# File: day8_ml_concept.py
+# Run: python day8_ml_concept.py
+# Required: pip install scikit-learn numpy
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import numpy as np
+
+# SIMPLE ML EXAMPLE: Predict if email is spam
+# Feature 1: Number of exclamation marks
+# Feature 2: Presence of word "FREE" (1=yes, 0=no)
+# Feature 3: Sender known (1=yes, 0=no)
+# Label: 1=spam, 0=not spam
+
+# Training data (examples with answers)
+X = np.array([
+    # [exclamations, FREE, known_sender]
+    [5,  1, 0],   # spam
+    [10, 1, 0],   # spam
+    [0,  0, 1],   # not spam
+    [1,  0, 1],   # not spam
+    [8,  1, 0],   # spam
+    [0,  1, 0],   # spam (has FREE but unknown sender)
+    [2,  0, 1],   # not spam
+    [7,  1, 0],   # spam
+    [0,  0, 1],   # not spam
+    [12, 1, 0],   # spam
+])
+y = np.array([1, 1, 0, 0, 1, 1, 0, 1, 0, 1])  # 1=spam, 0=not spam
+
+# Split: 80% for training, 20% for testing
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+# TRAIN the model (it learns from examples)
+print("Training model...")
+model = LogisticRegression()
+model.fit(X_train, y_train)
+print("Training complete!")
+
+# EVALUATE — how well does it predict on unseen data?
+predictions = model.predict(X_test)
+accuracy    = accuracy_score(y_test, predictions)
+print(f"Accuracy: {accuracy * 100:.0f}%")
+
+# INFERENCE — predict on new, never-seen emails
+new_emails = np.array([
+    [0, 0, 1],    # Email from known person, no FREE, no exclamations
+    [8, 1, 0],    # Many exclamations, contains FREE, unknown sender
+])
+
+results = model.predict(new_emails)
+probs   = model.predict_proba(new_emails)
+
+for i, (pred, prob) in enumerate(zip(results, probs)):
+    label = "SPAM" if pred == 1 else "NOT SPAM"
+    confidence = max(prob) * 100
+    print(f"Email {i+1}: {label} ({confidence:.1f}% confident)")
+```
+
+---
+
+#### 📝 8.2 Types of ML (What to Know)
+
+```
+SUPERVISED LEARNING:              UNSUPERVISED LEARNING:
+Data HAS labels (answers)         Data has NO labels
+────────────────────────          ────────────────────────────
+Examples:                         Examples:
+  Email → spam/not spam           Customer clustering
+  Image → cat/dog/bird            Topic discovery
+  Review → positive/negative      Anomaly detection
+  Text → next word prediction     Dimension reduction
+
+LLMs = supervised learning        K-means, PCA = unsupervised
+(trained on text with             (finds natural groups)
+"next word" labels)
+
+REINFORCEMENT LEARNING:
+Agent takes actions, gets rewards/penalties
+Used in: Game AI, Robot control, RLHF (how ChatGPT was fine-tuned)
+```
+
+---
+
+#### 📝 8.3 The ML Pipeline
+
+```
+DATA COLLECTION                 FEATURE ENGINEERING
+Raw data from                   Clean, transform,
+databases, APIs     ────────▶   create new features
+web scraping                    from raw data
+        │
+        ▼
+MODEL TRAINING                  MODEL EVALUATION
+Feed data to                    Test on unseen
+algorithm, it       ◀────────   data — accuracy,
+adjusts weights                 F1, RMSE etc.
+        │
+        ▼
+DEPLOYMENT & MONITORING
+Model serves       ────────▶   Track performance,
+predictions via               retrain if accuracy
+API endpoint                  drops over time
+
+For LLMs like GPT-4:
+OpenAI did steps 1-4. You do step 5 (deployment — calling the API).
+That's why you can build agents without training models!
+```
+
+#### 📚 Day 8 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Machine Learning for Everybody — freeCodeCamp](https://www.youtube.com/watch?v=i_LwzRVP7bg) | 📺 YouTube | 4 hrs | ML from scratch |
+| [Visual Intro to ML — R2D3](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) | 🎨 Visual | 20 min | Beautiful visual explanation |
+| [StatQuest ML Playlist](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) | 📺 YouTube | Ongoing | Best ML explanations |
+
+**[⬆ Back to Top](#-table-of-contents)**
+
+---
+
+### Day 9 — Neural Networks — Visual Understanding
+
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** Neural network = layers of calculations. LLM ఒక very large neural network. ఇది code చేయక్కర్లేదు — కానీ "layer," "weights," "activation," "forward pass" అనే terms అర్థమవ్వాలి.
+
+---
+
+#### 📝 9.1 The Big Picture
+
+```
+ONE NEURON:
+                    ┌─────────────────────────────────┐
+Input 1 (0.5) ─────┤× weight 0.3 ───────────┐        │
+Input 2 (0.8) ─────┤× weight 0.7 ───────────┤ SUM    │──▶ Activation ──▶ Output
+Input 3 (0.2) ─────┤× weight 0.4 ───────────┘        │
+                    └─────────────────────────────────┘
+                    + bias (0.1)
+
+Step 1: Multiply each input by its weight
+        0.5×0.3 = 0.15
+        0.8×0.7 = 0.56
+        0.2×0.4 = 0.08
+
+Step 2: Sum everything + bias
+        0.15 + 0.56 + 0.08 + 0.1 = 0.89
+
+Step 3: Apply activation function
+        sigmoid(0.89) = 0.71   ← output of this neuron
+
+NEURAL NETWORK = Many neurons organized in layers:
+
+INPUT LAYER    HIDDEN LAYERS    OUTPUT LAYER
+(raw data)     (find patterns)  (prediction)
+
+x₁ ──────────▶ h₁ ──────────▶ ŷ₁
+x₂ ──────────▶ h₂ ──────────▶ ŷ₂
+x₃ ──────────▶ h₃
+               h₄
+
+Each connection has a WEIGHT (learned during training)
+Training = finding the best weights so predictions are correct
+```
+
+```python
+# File: day9_neural_network.py
+# Run: python day9_neural_network.py
+# Required: pip install numpy
+
+import numpy as np
+
+def sigmoid(x):
+    """Activation function: converts any number to 0-1 range."""
+    return 1 / (1 + np.exp(-x))
+
+# ONE NEURON — manual calculation
+print("=== Single Neuron ===")
+inputs  = np.array([0.5, 0.8, 0.2])
+weights = np.array([0.3, 0.7, 0.4])
+bias    = 0.1
+
+weighted_sum = np.dot(inputs, weights) + bias
+output       = sigmoid(weighted_sum)
+
+print(f"Inputs:       {inputs}")
+print(f"Weights:      {weights}")
+print(f"Weighted sum: {weighted_sum:.4f}")
+print(f"Output:       {output:.4f}")
+
+# TWO-LAYER NETWORK — forward pass
+print("\n=== Two-Layer Network ===")
+np.random.seed(42)
+
+# Architecture: 3 inputs → 4 hidden neurons → 2 outputs
+W1 = np.random.randn(3, 4) * 0.5     # input → hidden weights
+b1 = np.zeros(4)                       # hidden layer bias
+W2 = np.random.randn(4, 2) * 0.5     # hidden → output weights
+b2 = np.zeros(2)                       # output layer bias
+
+# Forward pass (data flows forward through layers)
+X        = np.array([[0.5, 0.8, 0.2]])   # one input sample
+
+hidden   = sigmoid(X @ W1 + b1)          # hidden layer output
+output   = sigmoid(hidden @ W2 + b2)     # final output
+
+print(f"Input shape:  {X.shape}")
+print(f"Hidden shape: {hidden.shape}")
+print(f"Output shape: {output.shape}")
+print(f"Output:       {output}")
+
+# HOW LLMs ARE DIFFERENT:
+print("\n=== LLM vs Simple Network ===")
+print("""
+Simple network:
+  Layers: 2-3
+  Parameters (weights): thousands
+  Task: one specific thing (spam detection)
+
+GPT-4 (large LLM):
+  Layers: 96 transformer layers
+  Parameters: 1.76 trillion
+  Task: understand and generate ANY text
+  
+When you call ChatGPT/Claude API:
+  You send text → it becomes numbers (tokens)
+  Passes through 96 layers (billions of calculations)
+  Each layer understands more context (attention mechanism)
+  Output: next token probabilities
+  Most likely token → added to response
+  Repeat until complete response generated
+""")
+```
+
+#### 📚 Day 9 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Neural Networks — 3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk) | 📺 YouTube | 19 min | Best visual explanation ever |
+| [Neural Networks from Scratch — Sentdex](https://www.youtube.com/watch?v=Wo5dMEP_BbI) | 📺 YouTube | 30 min | Build from scratch |
+| [Playground — TensorFlow](https://playground.tensorflow.org/) | 🎮 Interactive | 20 min | Visual neural network playground |
+| [Neural Networks — Michael Nielsen (Free Book)](http://neuralnetworksanddeeplearning.com/chap1.html) | 📖 Book | 2 hrs | Definitive free resource |
+
+**[⬆ Back to Top](#-table-of-contents)**
+
+---
+
+### Day 10 — Training vs Inference vs Fine-tuning
+
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** ఈ three terms agents developers కి most important. Training చేసినది OpenAI. Inference చేసేది మీరు. Fine-tuning మీ data తో మళ్ళీ train చేయడం.
+
+```python
+# File: day10_concepts.py
+# Run: python day10_concepts.py
+
+print("""
+╔══════════════════════════════════════════════════════════════╗
+║           TRAINING vs INFERENCE vs FINE-TUNING              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  TRAINING (Pre-training):                                    ║
+║  ─────────────────────────────────────────────────────────  ║
+║  What: Model learns from billions of examples                ║
+║  Who:  OpenAI, Anthropic, Google, Meta                       ║
+║  Time: Months of computation                                 ║
+║  Cost: $50M–$500M+ in compute                                ║
+║  Hardware: 10,000+ GPUs simultaneously                       ║
+║  Result: The foundation model (GPT-4, Claude, Gemini)        ║
+║                                                              ║
+║  INFERENCE (Using the model):                                ║
+║  ─────────────────────────────────────────────────────────  ║
+║  What: Feed input, get output — model weights don't change   ║
+║  Who:  YOU (every time you call the API)                     ║
+║  Time: Milliseconds to seconds                               ║
+║  Cost: $0.001–$0.01 per 1000 tokens                          ║
+║  Hardware: One GPU or even CPU for small models              ║
+║  Result: Response to your specific prompt                    ║
+║                                                              ║
+║  FINE-TUNING:                                                ║
+║  ─────────────────────────────────────────────────────────  ║
+║  What: Continue training on YOUR specific domain data        ║
+║  Who:  You or your company                                   ║
+║  Time: Hours to days                                         ║
+║  Cost: $50–$5000 depending on size                           ║
+║  Hardware: 1–8 GPUs                                          ║
+║  Result: Model specialised for your use case                 ║
+║                                                              ║
+║  WHEN TO USE EACH:                                           ║
+║  ─────────────────────────────────────────────────────────  ║
+║  Just calling ChatGPT? → INFERENCE only                      ║
+║  Building a simple chatbot? → INFERENCE only (with prompts)  ║
+║  Need domain expertise (medical, legal)? → FINE-TUNING       ║
+║  Need a completely new capability? → TRAINING (rare)         ║
+╚══════════════════════════════════════════════════════════════╝
+""")
+
+# PRACTICAL: When building agents, you do INFERENCE
+# Your agent calls the API → that's inference
+# The model is already trained — you just use it
+
+import os
+from dotenv import load_dotenv
+from openai import OpenAI
+
+load_dotenv()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# This is INFERENCE — you're using an already-trained model
+print("Making inference call to GPT-4o-mini...")
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": "In one sentence, what is the difference between training and inference in ML?"}],
+    max_tokens=100
+)
+
+print("Model's answer:")
+print(response.choices[0].message.content)
+print(f"\nTokens used for inference: {response.usage.total_tokens}")
+print(f"Approximate cost: ${response.usage.total_tokens * 0.00015 / 1000:.6f}")
+```
+
+#### 📚 Day 10 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Fine-tuning LLMs — Andrej Karpathy](https://www.youtube.com/watch?v=bZQun8Y4L2A) | 📺 YouTube | 2 hrs | Complete fine-tuning guide |
+| [OpenAI Fine-tuning Docs](https://platform.openai.com/docs/guides/fine-tuning) | 📖 Docs | 30 min | How to fine-tune GPT |
+| [LoRA Fine-tuning Explained](https://www.youtube.com/watch?v=dA-NhCtrrVE) | 📺 YouTube | 45 min | Efficient fine-tuning method |
+
+**[⬆ Back to Top](#-table-of-contents)**
+
+---
+
+### Day 11 — Loss Functions + Optimization
+
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** Loss function = model ఎంత wrong గా ఉందో measure చేయడం. Gradient descent = loss తగ్గించే direction లో weights update చేయడం. Agent developers కి ఇది "RLHF," "reward model" అనే concepts అర్థమవ్వడానికి కావాలి.
+
+```python
+# File: day11_loss.py
+# Run: python day11_loss.py
+# Required: pip install numpy matplotlib
+
+import numpy as np
+
+# ── WHAT IS LOSS? ─────────────────────────────────────────────
+# Loss = how wrong the model is
+# Goal: minimize loss = make model more correct
+
+# MEAN SQUARED ERROR — for regression
+def mse(predictions, actual):
+    """Calculate how wrong regression predictions are."""
+    errors  = predictions - actual
+    squared = errors ** 2
+    return squared.mean()
+
+# Example: Predicting house prices
+actual_prices = np.array([450000, 330000, 280000, 600000])
+bad_model     = np.array([300000, 200000, 400000, 500000])
+good_model    = np.array([445000, 325000, 285000, 595000])
+
+print("Bad model MSE:", mse(bad_model, actual_prices))
+print("Good model MSE:", mse(good_model, actual_prices))
+# Lower MSE = better model
+
+# CROSS ENTROPY — for classification (what LLMs minimize)
+def cross_entropy(predicted_probs, true_labels):
+    """Loss for classification tasks."""
+    epsilon = 1e-15    # prevent log(0)
+    return -np.mean(true_labels * np.log(predicted_probs + epsilon))
+
+# LLM predicts probability for each next token
+# True: next word should be "Mumbai" (index 2 in vocab)
+vocab           = ["Delhi", "Chennai", "Mumbai", "Bangalore"]
+predicted_probs = np.array([0.1, 0.15, 0.65, 0.1])  # model's guesses
+true_label      = np.array([0,   0,    1,    0])      # "Mumbai" is correct
+
+loss = cross_entropy(predicted_probs, true_label)
+print(f"\nCross entropy loss: {loss:.4f}")
+print("Lower = model is more confident about the right answer")
+
+# ── GRADIENT DESCENT ──────────────────────────────────────────
+# The learning algorithm: adjust weights to reduce loss
+
+def gradient_descent_demo():
+    """Visual demonstration of gradient descent."""
+    # Simplified loss: L(w) = (w - 5)^2
+    # Minimum is at w=5 (perfect weight)
+    w  = 0.0     # start with wrong weight
+    lr = 0.1     # learning rate = step size
+
+    print("\nGradient Descent Visualization:")
+    print(f"{'Step':>6} | {'Weight (w)':>12} | {'Loss':>10} | {'Gradient':>10}")
+    print("-" * 50)
+
+    for step in range(20):
+        loss     = (w - 5) ** 2
+        gradient = 2 * (w - 5)    # derivative of (w-5)^2
+        w        = w - lr * gradient   # update: move against gradient
+
+        if step % 4 == 0 or step == 19:
+            bar = "█" * int(loss)
+            print(f"{step+1:>6} | {w:>12.4f} | {loss:>10.4f} | {gradient:>10.4f}")
+
+    print(f"\nFinal weight: {w:.4f} (converged to 5.0)")
+
+gradient_descent_demo()
+
+print("""
+For LLMs (like GPT-4):
+- Loss = how wrong the "next token" prediction is
+- Gradient descent runs billions of times during training
+- OpenAI used this for ~3 months on 10,000+ GPUs
+- Result: GPT-4 (you now call it via API for $0.001 per call)
+- You DON'T write this — you just use the trained model!
+""")
+```
+
+#### 📚 Day 11 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Gradient Descent — 3Blue1Brown](https://www.youtube.com/watch?v=IHZwWFHWa-w) | 📺 YouTube | 21 min | Visual gradient descent |
+| [Loss Functions — StatQuest](https://www.youtube.com/watch?v=Skc8nqJirJg) | 📺 YouTube | 15 min | All major loss functions |
+| [Backpropagation — 3Blue1Brown](https://www.youtube.com/watch?v=Ilg3gGewQ5U) | 📺 YouTube | 14 min | How weights are updated |
+
+**[⬆ Back to Top](#-table-of-contents)**
+
+---
+
+### Day 12 — PyTorch Tensors + Autograd
+
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** PyTorch = deep learning framework. Agent code లో directly రాయవలసిన పని లేదు — కానీ embedding models, local LLMs PyTorch వాడతాయి. "tensor," "device," "no_grad()" terms అర్థమవ్వాలి.
+
+```python
+# File: day12_pytorch.py
+# Run: python day12_pytorch.py
+# Required: pip install torch
+
 import torch
+import torch.nn as nn
 
-# You'll see these shapes in agent/LLM code:
-single_embedding  = torch.zeros(1536)          # One text embedding
-batch_of_texts    = torch.zeros(32, 1536)      # 32 texts at once
-image_tensor      = torch.zeros(3, 224, 224)   # RGB image
-
+print("PyTorch version:", torch.__version__)
+print("GPU available:", torch.cuda.is_available())
 device = "cuda" if torch.cuda.is_available() else "cpu"
-print("Running on:", device)                   # cpu or cuda
+print("Using device:", device)
 
-# cosine similarity — used in vector search
-a = torch.randn(1, 512)
-b = torch.randn(1, 512)
-sim = torch.nn.functional.cosine_similarity(a, b)
-print("Similarity:", sim.item())
+# ── TENSORS — PyTorch's NumPy ─────────────────────────────────
+# Create tensors
+t1 = torch.tensor([1.0, 2.0, 3.0])              # from list
+t2 = torch.zeros(3, 4)                           # zeros
+t3 = torch.randn(2, 512)                         # random (embedding-like)
+t4 = torch.arange(0, 10, 2)                      # [0, 2, 4, 6, 8]
+
+print("\nTensor shapes:")
+print(f"t1: {t1.shape}")    # torch.Size([3])
+print(f"t2: {t2.shape}")    # torch.Size([3, 4])
+print(f"t3: {t3.shape}")    # torch.Size([2, 512]) — like 2 embeddings
+
+# Moving to GPU (if available)
+t3_gpu = t3.to(device)
+print(f"\nt3 on: {t3_gpu.device}")
+
+# ── OPERATIONS ────────────────────────────────────────────────
+a = torch.tensor([1.0, 2.0, 3.0])
+b = torch.tensor([4.0, 5.0, 6.0])
+
+print("\nTensor operations:")
+print("Add:", a + b)                             # [5, 7, 9]
+print("Dot product:", torch.dot(a, b))           # 32 (1×4 + 2×5 + 3×6)
+print("Cosine similarity:", nn.functional.cosine_similarity(
+    a.unsqueeze(0), b.unsqueeze(0)
+))
+
+# ── AUTOGRAD — Automatic Differentiation ─────────────────────
+# PyTorch automatically calculates gradients
+x = torch.tensor([3.0], requires_grad=True)    # track this tensor's gradient
+y = x ** 2 + 2*x + 1                           # y = x² + 2x + 1
+
+y.backward()    # compute dy/dx automatically
+print(f"\nAutograd demo:")
+print(f"x = 3, y = x² + 2x + 1 = {y.item():.0f}")
+print(f"dy/dx = 2x + 2 = {x.grad.item():.0f}")  # should be 8
+
+# ── NO_GRAD — For Inference Only ──────────────────────────────
+# During inference, don't track gradients (saves memory + speed)
+print("\nInference mode (no gradient tracking):")
+with torch.no_grad():
+    x_inf = torch.tensor([2.0])
+    y_inf = x_inf ** 2 + 1
+    print(f"Output: {y_inf.item()}")
+    print("Gradients tracked:", x_inf.requires_grad)  # False
+
+# ── WHERE YOU'LL SEE THIS IN AGENT CODE ──────────────────────
+print("""
+You'll see these in embedding model code:
+
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer("all-MiniLM-L6-v2")
+# Internally, model uses PyTorch with no_grad() during encoding
+
+embeddings = model.encode(["Hello world"])
+# Returns numpy array, but internally: torch tensors → .cpu().numpy()
+""")
 ```
 
-> 📺 **Resource:** [PyTorch Beginner — Patrick Loeber (1 hr)](https://www.youtube.com/watch?v=GIsg-ZUy0MY)
+#### 📚 Day 12 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [PyTorch Crash Course — Patrick Loeber](https://www.youtube.com/watch?v=GIsg-ZUy0MY) | 📺 YouTube | 1 hr | PyTorch from scratch |
+| [Official PyTorch Tutorials](https://pytorch.org/tutorials/beginner/basics/intro.html) | 📖 Docs | 2 hrs | Official step-by-step |
+| [Deep Learning with PyTorch — freeCodeCamp](https://www.youtube.com/watch?v=V_xro1bcAuA) | 📺 YouTube | 10 hrs | Complete course |
 
 **[⬆ Back to Top](#-table-of-contents)**
 
 ---
 
-### Day 12 — How LLMs Are Built
+### Day 13 — Transformer + Attention Mechanism
 
-**అర్థం:** LLM (Large Language Model) = very large transformer neural network. Transformer = attention mechanism + feed-forward layers.
+**⏱️ Duration: 1.5 hours**
 
-```
-The Attention Mechanism — Why LLMs Are Smart:
-
-Sentence: "The bank can guarantee deposits."
-What does "bank" mean? Financial or river?
-
-Without Attention:    "bank" = fixed meaning (confused!)
-With Attention:       "bank" looks at ALL other words:
-                      → "deposits" found → Financial bank ✓
-                      → "guarantee" found → Financial bank ✓
-
-ATTENTION = each word looks at every other word to understand context.
-This is why GPT can understand complex paragraphs.
-```
-
-```
-Full LLM Pipeline:
-"Book a flight" → Tokenize → Embed → 96 Transformer Layers → Output tokens → "Sure! When?"
-```
-
-> 📺 **Resource:** [Illustrated Transformer — Jay Alammar](https://www.youtube.com/watch?v=4Bdc55j80l8)
-
-**[⬆ Back to Top](#-table-of-contents)**
+**అర్థం:** Transformer అంటే LLM యొక్క core architecture. Attention mechanism అంటే words ఒకదానికొకటి "చూసుకోవడం" — context అర్థమవ్వడానికి. GPT, Claude, Gemini అన్నీ transformers.
 
 ---
 
-### Day 13 — Tokens + Context Window
+#### 📝 13.1 Why Transformers Were Invented
 
-**అర్థం:** Token = LLM చదివే smallest unit (~4 characters). Context window = LLM ఒకేసారి read చేయగలిగే maximum tokens. ఇది agent design కి critical.
+```
+BEFORE TRANSFORMERS (RNNs — 2013-2017):
+Process words ONE BY ONE (sequential)
+
+"The  cat  sat  on  the  mat"
+ ↓    ↓    ↓    ↓    ↓    ↓
+[→] [→→] [→→→] [→→→→] [→→→→→] [→→→→→→]
+
+Problem: When processing "mat," the model has mostly FORGOTTEN "The cat"
+Because information degrades over long sequences.
+Long documents → terrible understanding
+
+TRANSFORMERS (2017 — "Attention is All You Need"):
+Process ALL words SIMULTANEOUSLY
+
+"The  cat  sat  on  the  mat"
+  ↕    ↕    ↕    ↕    ↕    ↕
+Every word attends to (looks at) every other word AT ONCE
+
+"mat" can directly "see" "cat" and "sat"
+No forgetting. Parallel. Scales perfectly.
+Result: GPT, Claude, Gemini — all modern AI
+```
+
+---
+
+#### 📝 13.2 The Attention Mechanism
 
 ```python
-# Token rules (approximate):
-# 1 token ≈ 4 characters in English
-# 100 tokens ≈ 75 words
+# File: day13_attention.py
+# Run: python day13_attention.py
+# Required: pip install numpy
 
-# Context window comparison:
+import numpy as np
+
+def softmax(x):
+    exp_x = np.exp(x - np.max(x))
+    return exp_x / exp_x.sum()
+
+print("=== ATTENTION MECHANISM DEMO ===\n")
+
+# EXAMPLE: "The bank can guarantee deposits"
+# What does "bank" mean? Financial or river?
+
+# Each word is represented as a vector (simplified to 3D here)
+words = ["The", "bank", "can", "guarantee", "deposits"]
+# In reality: 4096-dimensional vectors (GPT-4)
+# Here: simplified 3D for illustration
+
+# Simplified word vectors (pre-assigned for demo)
+word_vectors = np.array([
+    [0.1, 0.2, 0.8],   # The
+    [0.5, 0.4, 0.3],   # bank (ambiguous — financial or river?)
+    [0.2, 0.7, 0.1],   # can
+    [0.8, 0.1, 0.4],   # guarantee (financial context!)
+    [0.7, 0.2, 0.5],   # deposits (financial context!)
+])
+
+# ATTENTION: "bank" looks at all words to understand its meaning
+bank_vector = word_vectors[1]   # The word "bank"
+
+print("'bank' vector:", bank_vector)
+print("\nHow much should 'bank' attend to each word?")
+print("(Higher = more relevant to understanding 'bank')\n")
+
+# Calculate attention scores (dot product similarity)
+attention_scores = np.array([
+    np.dot(bank_vector, word_vectors[i])
+    for i in range(len(words))
+])
+
+# Convert to probabilities (softmax)
+attention_weights = softmax(attention_scores)
+
+print(f"{'Word':<12} {'Raw Score':>10} {'Attention':>10} {'Bar'}")
+print("-" * 55)
+for word, score, weight in zip(words, attention_scores, attention_weights):
+    bar = "█" * int(weight * 30)
+    print(f"{word:<12} {score:>10.3f} {weight:>10.4f} {bar}")
+
+# The word "bank" now knows it's a financial term!
+# "guarantee" and "deposits" got high attention
+# → "bank" = financial institution ✅
+print("\nConclusion: 'bank' attends most to 'deposits' and 'guarantee'")
+print("→ It understands it means FINANCIAL BANK, not river bank!")
+```
+
+---
+
+#### 📝 13.3 Full Transformer Architecture
+
+```
+TRANSFORMER ARCHITECTURE:
+─────────────────────────────────────────────────────────────
+
+Input: "Book a flight to Mumbai"
+  ↓
+[TOKENIZATION]
+  "Book" "a" "flight" "to" "Mumbai"   (5 tokens)
+
+  ↓
+[EMBEDDING LAYER]
+  Each token → 4096-dimensional vector (in GPT-4)
+  "Book"   → [0.2, -0.4, 0.8, 0.1, ...]
+  "Mumbai" → [0.7, 0.2, -0.3, 0.9, ...]
+
+  ↓
+[POSITIONAL ENCODING]
+  Add position info: "Book" is at position 1, "Mumbai" at position 5
+
+  ↓
+┌─────────────────────────────────────────┐
+│     TRANSFORMER BLOCK × N              │
+│   (GPT-3: 96 blocks, GPT-4: more)      │
+│                                        │
+│   ┌───────────────────────────────┐    │
+│   │  MULTI-HEAD ATTENTION         │    │
+│   │  All words attend to all      │    │
+│   │  words (in parallel!)         │    │
+│   │  Multiple "attention heads"   │    │
+│   │  each focus on different      │    │
+│   │  aspects of meaning           │    │
+│   └───────────────┬───────────────┘    │
+│                   ↓                    │
+│   ┌───────────────────────────────┐    │
+│   │  FEED-FORWARD NETWORK         │    │
+│   │  Process attended features    │    │
+│   │  Learn complex patterns       │    │
+│   └───────────────────────────────┘    │
+└─────────────────────────────────────────┘
+  ↓
+[OUTPUT LAYER]
+  Predict probability for each word in vocabulary
+  Most likely next token → append to response
+  Repeat until end of response
+
+Result: "I'll help you book a flight to Mumbai!"
+```
+
+#### 📚 Day 13 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Attention Is All You Need — Yannic Kilcher](https://www.youtube.com/watch?v=iDulhoQ2pro) | 📺 YouTube | 1.5 hrs | Original paper explained |
+| [The Illustrated Transformer — Jay Alammar](https://jalammar.github.io/illustrated-transformer/) | 📖 Blog | 1 hr | Best visual explanation |
+| [Transformers from Scratch — Brandon Rohrer](https://www.youtube.com/watch?v=wjZofJX0v4M) | 📺 YouTube | 25 min | Visual walkthrough |
+| [3Blue1Brown — GPT explained](https://www.youtube.com/watch?v=eMlx5fFNoYc) | 📺 YouTube | 27 min | Visual attention |
+
+**[⬆ Back to Top](#-table-of-contents)**
+
+---
+
+### Day 14 — Tokens + Context Windows + LLM Landscape
+
+**⏱️ Duration: 1 hour**
+
+**అర్థం:** Token = LLM చదివే smallest unit. Context window = ఒకేసారి read చేయగలిగే maximum. ఇవి agent design కి directly impact చేస్తాయి.
+
+```python
+# File: day14_tokens.py
+# Run: python day14_tokens.py
+# Required: pip install tiktoken
+
+import tiktoken
+
+# Load tokenizer for GPT-4o-mini
+tokenizer = tiktoken.get_encoding("cl100k_base")
+
+# ── TOKENIZATION DEMO ─────────────────────────────────────────
+texts = [
+    "Hello",
+    "Hello World",
+    "Book a flight from Hyderabad to Mumbai on June 15",
+    "నమస్కారం",    # Telugu word
+]
+
+print("TOKENIZATION DEMO:")
+print(f"{'Text':<50} {'Tokens':>8} {'Token IDs'}")
+print("-" * 80)
+
+for text in texts:
+    tokens = tokenizer.encode(text)
+    print(f"'{text[:48]:<48}' {len(tokens):>8}  {tokens}")
+
+# ── CONTEXT WINDOW COMPARISON ─────────────────────────────────
+print("\n" + "="*60)
+print("CONTEXT WINDOW COMPARISON (May 2026)")
+print("="*60)
+
 models = {
-    "GPT-3.5 Turbo": 4_096,       # ~3,000 words
-    "GPT-4o":       128_000,       # ~96,000 words = 300 pages!
-    "Claude Sonnet":1_000_000,     # ~750,000 words = entire library!
-    "Gemini 1.5 Pro":1_000_000,   # Same as Claude
+    "GPT-3.5 Turbo":      {"tokens":      4_096, "cost_per_1k": 0.0005},
+    "GPT-4o":             {"tokens":    128_000, "cost_per_1k": 0.005},
+    "GPT-4o-mini":        {"tokens":    128_000, "cost_per_1k": 0.00015},
+    "Claude Sonnet 4.6":  {"tokens":  1_000_000, "cost_per_1k": 0.003},
+    "Claude Opus 4":      {"tokens":    200_000, "cost_per_1k": 0.015},
+    "Gemini 1.5 Flash":   {"tokens":  1_000_000, "cost_per_1k": 0.0001},
+    "Gemini 1.5 Pro":     {"tokens":  2_000_000, "cost_per_1k": 0.0035},
+    "Llama 4 (local)":    {"tokens":    128_000, "cost_per_1k": 0.0},
 }
 
-# WHY THIS MATTERS FOR AGENTS:
-# Agent sends FULL conversation history with every message!
-# Turn 1: 10 tokens
-# Turn 2: 10 tokens
-# ...
-# Turn 50: 5 tokens (but total sent = all 50 turns = ~3000 tokens!)
-#
-# Solution: Memory compression, summarization of old turns.
-# This is WHY memory management is critical in autonomous agents.
+print(f"\n{'Model':<25} {'Context':>12} {'~Pages':>8} {'Cost/1K tokens':>16}")
+print("-" * 65)
+
+for model, info in models.items():
+    tokens = info["tokens"]
+    pages  = tokens * 4 / 250 / 300   # approx: 4 chars/token, 250 words/pg, 300 chars/pg
+    cost   = f"${info['cost_per_1k']}" if info['cost_per_1k'] > 0 else "FREE (local)"
+    print(f"{model:<25} {tokens:>12,} {pages:>8.0f} {cost:>16}")
+
+# ── WHY CONTEXT WINDOW MATTERS FOR AGENTS ──────────────────────
+print("""
+WHY CONTEXT WINDOW MATTERS FOR AUTONOMOUS AGENTS:
+
+Every agent call sends:
+  System prompt:       ~500 tokens
+  Conversation history: grows with each turn
+  Retrieved documents: ~2000 tokens (if using RAG)
+  User message:         ~50 tokens
+  Tool results:         ~500 tokens per tool call
+
+A 5-tool-call agent session: ~4000+ tokens per LLM call
+A 30-turn conversation:      ~15,000+ tokens
+
+IMPLICATION:
+  GPT-3.5 (4K tokens) → runs out in long agent sessions!
+  Claude Sonnet (1M tokens) → handles 10-hour agent sessions
+  
+For autonomous agents → choose models with LARGE context windows
+""")
+
+# ── MODEL SELECTION GUIDE ─────────────────────────────────────
+print("MODEL SELECTION GUIDE FOR AGENT DEVELOPERS:")
+print("-"*60)
+print("Task                           Recommended Model")
+print("-"*60)
+print("Learning / cheap testing       GPT-4o-mini ($0.00015/1K)")
+print("Long-running agents            Claude Sonnet 4.6 (1M context)")
+print("Best reasoning quality         Claude Opus 4 / GPT-4o")
+print("Privacy-sensitive data         Llama 4 via Ollama (local, free)")
+print("Fastest responses              Gemini 1.5 Flash")
+print("Multimodal (image + text)      Gemini 1.5 Pro / GPT-4o")
+print("Coding agents                  Claude Sonnet / GPT-4o")
 ```
 
-> **Remember:** Longer context = more expensive. Always optimize token usage in production agents.
+#### 📚 Day 14 Resources
+
+| Resource | Type | Time | What you learn |
+|----------|------|------|----------------|
+| [Tokenization Explained — Andrej Karpathy](https://www.youtube.com/watch?v=zduSFxRajkE) | 📺 YouTube | 2 hrs | Deep tokenization dive |
+| [OpenAI Tokenizer Tool](https://platform.openai.com/tokenizer) | 🔧 Tool | 10 min | Visual tokenizer |
+| [LLM Comparison — LMSYS Chatbot Arena](https://chat.lmsys.org) | 🔧 Tool | Ongoing | Compare models live |
+| [Context Windows Explained](https://www.youtube.com/watch?v=K-YNHhfFkZo) | 📺 YouTube | 15 min | Why context matters |
+
+---
+
+### ✅ End of Week 1–4 (Brief Phase) — Self Check
+
+```
+Before moving to Week 5 DEEP phase, you should be able to:
+
+PYTHON:
+□ Create variables, lists, dictionaries
+□ Write functions with parameters and return values
+□ Create a class with __init__, methods, and inheritance
+□ Handle errors with try-except
+□ Read JSON from an API response
+
+MATH & DATA:
+□ Explain what a vector and embedding are
+□ Calculate cosine similarity (understand what it measures)
+□ Create and slice NumPy arrays
+□ Filter and groupby a Pandas DataFrame
+
+ML / LLM CONCEPTS:
+□ Explain difference between training and inference
+□ What is a context window and why does it matter?
+□ What is attention mechanism in 2 sentences?
+□ Name 3 LLMs and when to use each
+
+If you can answer all of the above → proceed to Week 5 ✅
+If not → spend 1 extra day on any topic you're unsure about
+```
 
 **[⬆ Back to Top](#-table-of-contents)**
 
 ---
-
-### Day 14 — LLM Landscape
-
-**అర్థం:** Market లో చాలా LLMs ఉన్నాయి. Agent developer గా — ఏ task కి ఏ model వాడాలో తెలియాలి.
-
-```
-MODEL SELECTION GUIDE FOR AGENT DEVELOPERS:
-
-Need BEST reasoning?            → Claude Opus 4 / GPT-5.4
-Need LONG context (big docs)?   → Claude Sonnet 4.6 (1M tokens)
-Need CHEAPEST at scale?         → Gemini Flash / GPT-4o-mini
-Need PRIVATE / local data?      → Llama 4 via Ollama (free, local)
-Need FASTEST response?          → Gemini Flash 2.0
-Need CODING agents?             → Claude Code / GPT-5.4
-
-Open Source (FREE — runs locally):
-→ Llama 4 (Meta)     — best open source
-→ Mistral Small 4    — fast and efficient
-→ Qwen 2.5           — great for multilingual (Telugu too!)
-```
-
-> 📺 **Resource:** [LLM Comparison 2026 — Andrej Karpathy](https://www.youtube.com/watch?v=zjkBMFhNj_g)
-
-**[⬆ Back to Top](#-table-of-contents)**
-
----
-<br/>
-
 ## 🔴 DEEP — Autonomous AI (Weeks 5–8)
 
 > **Thinglish:** ఇప్పటి నుండి DEEP MODE. ప్రతీ concept కి — full explanation, working code, Telugu meaning, real-time example, diagram అన్నీ ఉంటాయి.
@@ -1998,6 +3996,7 @@ Thank you to everyone who has contributed to making this course better for every
 
 ## 📦 Repository Structure
 
+```
 zero-to-autonomous-agentic-ai/
 │
 ├── 📄 README.md                          ← You are here
@@ -2081,6 +4080,8 @@ Yes — MIT License. Use, modify, share freely. Attribution appreciated.
 
 <div align="center">
 
+---
+
 ## ⭐ Star This Repository
 
 If this course is helping you, **star it** — it helps other learners find it for free.
@@ -2088,12 +4089,15 @@ If this course is helping you, **star it** — it helps other learners find it f
 [![Star](https://img.shields.io/github/stars/sisi-tarak/zero-to-autonomous-agentic-ai?style=for-the-badge&logo=github&label=Star%20this%20repo)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai)
 [![Fork](https://img.shields.io/github/forks/sisi-tarak/zero-to-autonomous-agentic-ai?style=for-the-badge&logo=github&label=Fork%20%26%20Contribute)](https://github.com/sisi-tarak/zero-to-autonomous-agentic-ai/fork)
 
+---
 
 ### 📲 Follow for Daily AI Updates
 
 [![Instagram](https://img.shields.io/badge/Follow%20%40sisi__tarakk-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/sisi_tarakk)
 [![LinkedIn](https://img.shields.io/badge/Sisindri%20Singamsetti-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sisitarak)
 [![GitHub](https://img.shields.io/badge/sisi--tarak-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sisi-tarak)
+
+---
 
 ### 📦 More Free Repositories by Sisi
 
